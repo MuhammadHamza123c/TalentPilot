@@ -9,7 +9,6 @@ from .src.read_resume import resume_content
 from ..agents.src.data_read import get_data
 from ..agents.model_detail import model_data
 from ..api.src.resume_upload import upload_resume
-from .src.extract_url_text import extract_portfolio_text
 from groq import Groq,APIConnectionError,APIError,APITimeoutError,RateLimitError
 from ..agents.src.resume_file import build_resume_png,build_resume_png_second,build_resume_png_third
 
@@ -71,7 +70,9 @@ def create_new_resume(image_name:str=None,text:str=None):
 
 
 def main_resume(user_resume_choice:int,take_text:str=None,image_name:str=None):
+    
      User_answer=create_new_resume(image_name=image_name,text=take_text)
+     
      if User_answer.question is None:
             if user_resume_choice=='1':
                 file_name=build_resume_png(User_answer)
@@ -93,41 +94,3 @@ def main_resume(user_resume_choice:int,take_text:str=None,image_name:str=None):
         }
           
 
-
-
-
-
-
-# while True:
-#     take_text=(input('Write down Query here: '))
-#     if take_text=='None':
-#          take_text=None
-#     if take_text=='url':
-#          image_name=None
-#          take_text=extract_portfolio_text(url=input('Enter Url here: '))
-#     image_name=input('Write down image here: ')
-#     if image_name=='None':
-#          image_name=None
-    
-        
-#     User_answer=create_new_resume(image_name=image_name,text=take_text)
- 
-         
-#     if User_answer.question is None:
-#             if user_resume_choice=='1':
-#                 file_name=build_resume_png(User_answer)
-#             elif user_resume_choice=='2':
-#                 file_name=build_resume_png_second(User_answer)
-#             elif user_resume_choice=='3':
-#                  file_name=build_resume_png_third(User_answer)
-#             content_store=resume_content(file_name=file_name)
-#             public_url=upload_resume(image_name=file_name,image_content=content_store)
-#             print(get_text(image_name=file_name,image_url=public_url))
-#             print(file_name)
-#             print(public_url)
-    
-
-#     else:
-#          print(User_answer.question)
-   
-    
