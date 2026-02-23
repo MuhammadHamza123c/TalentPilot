@@ -16,12 +16,12 @@ def build_resume_png(resume, output_size=(1200, 1600), bg_color="white") -> str:
 
     # Fonts
     
-    font_name = ImageFont.truetype("app/agents/arialbd.ttf", 48)
-    font_title = ImageFont.truetype("app/agents/arialbd.ttf", 26)
-    font_section = ImageFont.truetype("app/agents/arialbd.ttf", 24)
+    font_name = ImageFont.truetype("app/agents/font/arialbd.ttf", 48)
+    font_title = ImageFont.truetype("app/agents/font/arialbd.ttf", 26)
+    font_section = ImageFont.truetype("app/agents/font/arialbd.ttf", 24)
 
-    font_text = ImageFont.truetype("app/agents/arial.ttf", 20)
-    font_small = ImageFont.truetype("app/agents/arial.ttf", 18)
+    font_text = ImageFont.truetype("app/agents/font/arial.ttf", 20)
+    font_small = ImageFont.truetype("app/agents/font/arial.ttf", 18)
  
 
     def draw_wrapped_text(text, font, x, y, max_width, fill="black"):
@@ -133,12 +133,12 @@ def build_resume_png_second(resume, output_size=(1200, 1600), bg_color="white") 
     y = 80
 
     
-    font_name = ImageFont.truetype("app/agents/arialbd.ttf", 40)
-    font_section = ImageFont.truetype("app/agents/arialbd.ttf", 22)
-    font_sub = ImageFont.truetype("app/agents/arialbd.ttf", 20)
+    font_name = ImageFont.truetype("app/agents/font/arialbd.ttf", 40)
+    font_section = ImageFont.truetype("app/agents/font/arialbd.ttf", 22)
+    font_sub = ImageFont.truetype("app/agents/font/arialbd.ttf", 20)
 
-    font_text = ImageFont.truetype("app/agents/arial.ttf", 20)
-    font_small = ImageFont.truetype("app/agents/arial.ttf", 18)
+    font_text = ImageFont.truetype("app/agents/font/arial.ttf", 20)
+    font_small = ImageFont.truetype("app/agents/font/arial.ttf", 18)
  
 
     def draw_wrapped(text, font, x, y, width, spacing=8, fill="#333"):
@@ -257,12 +257,12 @@ def build_resume_png_third(resume, output_size=(1200, 1600), bg_color="white") -
 
     # Fonts
    
-    font_name = ImageFont.truetype("app/agents/arialbd.ttf", 38)
-    font_section = ImageFont.truetype("app/agents/arialbd.ttf", 22)
-    font_sub = ImageFont.truetype("app/agents/arialbd.ttf", 20)
+    font_name = ImageFont.truetype("app/agents/font/arialbd.ttf", 38)
+    font_section = ImageFont.truetype("app/agents/font/arialbd.ttf", 22)
+    font_sub = ImageFont.truetype("app/agents/font/arialbd.ttf", 20)
 
-    font_text = ImageFont.truetype("app/agents/arial.ttf", 20)
-    font_small = ImageFont.truetype("app/agents/arial.ttf", 18)
+    font_text = ImageFont.truetype("app/agents/font/arial.ttf", 20)
+    font_small = ImageFont.truetype("app/agents/font/arial.ttf", 18)
  
 
     def draw_wrapped(text, font, x, y, width, spacing=8, fill="#333"):
