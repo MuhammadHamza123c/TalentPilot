@@ -15,14 +15,14 @@ def build_resume_png(resume, output_size=(1200, 1600), bg_color="white") -> str:
     y_right = 60
 
     # Fonts
-    try:
-        font_name = ImageFont.truetype("arialbd.ttf", 48)
-        font_title = ImageFont.truetype("arialbd.ttf", 26)
-        font_section = ImageFont.truetype("arialbd.ttf", 24)
-        font_text = ImageFont.truetype("arial.ttf", 20)
-        font_small = ImageFont.truetype("arial.ttf", 18)
-    except:
-        font_name = font_title = font_section = font_text = font_small = ImageFont.load_default()
+    
+    font_name = ImageFont.truetype("app/agents/arialbd.ttf", 48)
+    font_title = ImageFont.truetype("app/agents/arialbd.ttf", 26)
+    font_section = ImageFont.truetype("app/agents/arialbd.ttf", 24)
+
+    font_text = ImageFont.truetype("app/agents/arial.ttf", 20)
+    font_small = ImageFont.truetype("app/agents/arial.ttf", 18)
+ 
 
     def draw_wrapped_text(text, font, x, y, max_width, fill="black"):
         lines = []
@@ -132,15 +132,14 @@ def build_resume_png_second(resume, output_size=(1200, 1600), bg_color="white") 
     max_width = output_size[0] - 2 * x_margin
     y = 80
 
-    # Fonts
-    try:
-        font_name = ImageFont.truetype("arialbd.ttf", 40)
-        font_section = ImageFont.truetype("arialbd.ttf", 22)
-        font_sub = ImageFont.truetype("arialbd.ttf", 20)
-        font_text = ImageFont.truetype("arial.ttf", 20)
-        font_small = ImageFont.truetype("arial.ttf", 18)
-    except:
-        font_name = font_section = font_sub = font_text = font_small = ImageFont.load_default()
+    
+    font_name = ImageFont.truetype("app/agents/arialbd.ttf", 40)
+    font_section = ImageFont.truetype("app/agents/arialbd.ttf", 22)
+    font_sub = ImageFont.truetype("app/agents/arialbd.ttf", 20)
+
+    font_text = ImageFont.truetype("app/agents/arial.ttf", 20)
+    font_small = ImageFont.truetype("app/agents/arial.ttf", 18)
+ 
 
     def draw_wrapped(text, font, x, y, width, spacing=8, fill="#333"):
         avg_char = font.getlength('x')
@@ -257,14 +256,14 @@ def build_resume_png_third(resume, output_size=(1200, 1600), bg_color="white") -
     y = 80
 
     # Fonts
-    try:
-        font_name = ImageFont.truetype("arialbd.ttf", 38)
-        font_section = ImageFont.truetype("arialbd.ttf", 22)
-        font_sub = ImageFont.truetype("arialbd.ttf", 20)
-        font_text = ImageFont.truetype("arial.ttf", 20)
-        font_small = ImageFont.truetype("arial.ttf", 18)
-    except:
-        font_name = font_section = font_sub = font_text = font_small = ImageFont.load_default()
+   
+    font_name = ImageFont.truetype("app/agents/arialbd.ttf", 38)
+    font_section = ImageFont.truetype("app/agents/arialbd.ttf", 22)
+    font_sub = ImageFont.truetype("app/agents/arialbd.ttf", 20)
+
+    font_text = ImageFont.truetype("app/agents/arial.ttf", 20)
+    font_small = ImageFont.truetype("app/agents/arial.ttf", 18)
+ 
 
     def draw_wrapped(text, font, x, y, width, spacing=8, fill="#333"):
         if not text:
