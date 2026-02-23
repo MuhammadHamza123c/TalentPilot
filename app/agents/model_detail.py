@@ -29,5 +29,9 @@ model_data=[{
         'TEMPERATURE':0.3,
         'SKILLS_IMPROVE_MODEL':'openai/gpt-oss-20b'
     },
+    {
+        'TEMPERATURE':0.5,
+        'RESUME_CREATE_MODEL':"moonshotai/kimi-k2-instruct-0905"
+    }
     ]
 

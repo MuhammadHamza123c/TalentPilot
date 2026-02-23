@@ -17,6 +17,8 @@ class CountryTechnologyMetrics(BaseModel):
 class TechnologyScore(BaseModel):
     technology_name: str
     overall_score: int
+    job_count: Optional[int] = None
+    avg_salary: Optional[int] = None
     top_companies: List[str]
     yearly_trends: Optional[List[TechnologyYearlyTrend]] = None
     countries: Optional[List[CountryTechnologyMetrics]] = None
@@ -29,12 +31,14 @@ class UpcomingTrends(BaseModel):
 class SkillAreaScore(BaseModel):
     skill_area_name: str
     average_score: float
+    job_count: Optional[int] = None
+    avg_salary: Optional[int] = None
     top_technologies: Optional[List[TechnologyScore]] = None
     yearly_trends: Optional[List[TechnologyYearlyTrend]] = None
     countries: Optional[List[CountryTechnologyMetrics]] = None
 
 class TechJobsCountryDashboard(BaseModel):
-    top_technologies: Optional[List[TechnologyScore]] = None
-    skill_areas: Optional[List[SkillAreaScore]] = None
-    upcoming_trends: Optional[List[UpcomingTrends]] = None
+    top_technologies: List[TechnologyScore]
+    skill_areas: List[SkillAreaScore]
+    upcoming_trends: List[UpcomingTrends]
     chart_type: str = "bar"

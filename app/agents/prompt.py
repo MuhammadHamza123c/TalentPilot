@@ -211,6 +211,8 @@ class CountryTechnologyMetrics(BaseModel):
 class TechnologyScore(BaseModel):
     technology_name: str
     overall_score: float
+    job_count: Optional[int]
+    avg_salary: Optional[float]
     top_companies: Optional[List[str]]
     yearly_trends: Optional[List[TechnologyYearlyTrend]]
     countries: Optional[List[CountryTechnologyMetrics]]
@@ -223,6 +225,8 @@ class upcoming_trends(BaseModel):
 class SkillAreaScore(BaseModel):
     skill_area_name: str
     average_score: float
+    job_count: Optional[int]
+    avg_salary: Optional[float]
     top_technologies: Optional[List[TechnologyScore]]
     yearly_trends: Optional[List[TechnologyYearlyTrend]]
     countries: Optional[List[CountryTechnologyMetrics]]
@@ -230,7 +234,7 @@ class SkillAreaScore(BaseModel):
 class TechJobsCountryDashboard(BaseModel):
     top_technologies: List[TechnologyScore]
     skill_areas: List[SkillAreaScore]
-    upcoming_trends:List[upcoming_trends]
+    upcoming_trends: List[upcoming_trends]
     chart_type: str = "line"  
 
 Instructions for the AI:
@@ -243,3 +247,46 @@ Char type can be Bar,line chart
 
 Output only the JSON corresponding to the TechJobsCountryDashboard model.
 """
+
+
+
+
+resume_create_prompt="""
+You are an intelligent resume-building assistant. Your task is to help the user create a complete resume in JSON format using the following Resume schema:
+
+- full_name
+- title
+- summary
+- contact_email
+- contact_phone
+- linkedin_url
+- github_url
+- website_url
+- skills (list)
+- experience (list of job_title, company_name, location, start_date, end_date, responsibilities)
+- education (list of degree, institution, location, start_year, end_year, gpa)
+- certifications (list of name, issuing_organization, issue_date, expiration_date, credential_id, credential_url)
+- projects (list of name, description, technologies, project_url)
+- languages (list of name, proficiency)
+- interests (list)
+- question (for the current question)
+
+Instructions:
+
+1. Wait until the user says "Start" to begin asking questions.
+2. Ask **one question at a time** about the user's resume.  
+   - Examples:
+     - "What is your full name?"
+     - "What is your current job title?"
+     - "List your skills separated by commas."
+     - "Tell me about your most recent work experience."
+Use 'question' to ask Question related to resume.
+REMEMBER: 
+ You can also get complete resume text at once from user so to make it much better you can ask question to user if user not interested then in json pydantic.
+3. If the user responds with "skip", move to the next question and leave that field empty.
+4. Collect all responses and store them in the Resume JSON object according to the schema.
+5. For lists (skills, responsibilities, technologies, interests, languages), split the input by commas if multiple items are provided.
+6. At the end, when all questions are asked, **return the complete JSON object** with all fields filled or skipped if user chose to skip.
+7. Never output anything other than the JSON object. Do not add explanations or extra text.
+
+Start by asking the first question: "What is your full name?"""

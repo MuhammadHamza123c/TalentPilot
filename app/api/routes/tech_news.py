@@ -1,13 +1,25 @@
 from app.api.src.news_api import fetch_news
 from fastapi import APIRouter,HTTPException,Query
 import requests
+from typing import Literal
 
-
+tech_name=Literal[
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Blockchain",
+    "Quantum Computing",
+    "Edge Computing",
+    "Metaverse",
+    "5G Networks",
+    "Cybersecurity",
+    "Cloud Computing",
+    "Robotic Process Automation"
+]
 
 
 news_router=APIRouter()
 @news_router.get('/TalentPilot/tech_news')
-def today_news_fetch(q:str=Query(default='Technology'),page_number:int=Query(default=1)):
+def today_news_fetch(q:tech_name=Query(default='Machine Learning'),page_number:int=Query(default=1,ge=1)):
     try:
         result=fetch_news(q,page_number)
         return{
