@@ -2,7 +2,7 @@ import requests
 from dotenv import load_dotenv
 import os
 
-RANGE=17
+RANGE=16
 load_dotenv()
 NEWS_API_KEY=os.getenv('news_api_key')
 def fetch_news(q:str,page_number:int):
