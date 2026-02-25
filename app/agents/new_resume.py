@@ -14,7 +14,7 @@ from ..agents.src.resume_file import build_resume_png,build_resume_png_second,bu
 
 #(------------------------------------LOAD ENV FILE---------------------------------------------)
 load_dotenv()
-groq_api_key=os.getenv('groq_api_key')
+groq_api_key=os.getenv('GROQ_API_KEY')
 client=Groq(api_key=groq_api_key)
 
 #(--------------------------------------USER MEMORY----------------------------------------------)
