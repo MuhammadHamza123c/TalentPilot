@@ -8,6 +8,7 @@ from app.api.routes.interview import interview_router
 from app.api.routes.job import job_router
 from app.api.routes.create_resume import new_resume_router
 from app.api.routes.resume_review import review_router
+from app.api.routes.roadmap_made import router_road_made
 app=FastAPI()
 @app.get('/')
 def home():
@@ -20,6 +21,7 @@ app.include_router(news_router)
 app.include_router(analyze_router)
 app.include_router(dashboard_router)
 app.include_router(road_map_router)
+app.include_router(router_road_made)
 app.include_router(interview_router)
 app.include_router(job_router)
 app.include_router(new_resume_router)
