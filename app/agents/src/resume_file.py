@@ -116,7 +116,7 @@ def build_resume_png(resume, output_size=(1200, 1600), bg_color="white") -> str:
         y_right = draw_wrapped_text(skills_text, font_text, right_col_x, y_right, output_size[0] - right_col_x - x_margin)
 
     # Save
-    filename = f"resume_{uuid4().hex[:8]}.png"
+    filename = f"/tmp/resume_{uuid4().hex[:8]}.png"
     img.save(filename)
     return filename
 
@@ -239,7 +239,7 @@ def build_resume_png_second(resume, output_size=(1200, 1600), bg_color="white") 
         y = draw_wrapped(skills_text, font_text, x_margin, y, max_width)
 
     # Save
-    filename = f"resume_{uuid4().hex[:8]}.png"
+    filename = f"/tmp/resume_{uuid4().hex[:8]}.png"
     img.save(filename)
     return filename
 
@@ -441,6 +441,6 @@ def build_resume_png_third(resume, output_size=(1200, 1600), bg_color="white") -
             y = draw_wrapped(text, font_text, x_margin, y, max_width)
 
     # Save
-    filename = f"resume_{uuid4().hex[:8]}.png"
+    filename = f"/tmp/resume_{uuid4().hex[:8]}.png"
     img.save(filename)
     return filename
