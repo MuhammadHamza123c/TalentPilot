@@ -1,0 +1,3654 @@
+[
+    {
+  
+  "Poster_url":"https://znuiuhxyhpgqmdftansc.supabase.co/storage/v1/object/public/files/Machine_learning.png",
+  "respone": {
+    "nodes": [
+      {
+        "id": "python_basics",
+        "label": "Python Basics",
+        "concepts": [
+          "variables",
+          "functions",
+          "loops",
+          "lists",
+          "dictionaries"
+        ],
+        "usesfull_where": [
+          "data manipulation",
+          "scripting",
+          "model building"
+        ],
+        "resources_website": "https://docs.python.org/3/tutorial/",
+        "projects": [
+          "calculator",
+          "todo cli"
+        ]
+      },
+      {
+        "id": "numpy",
+        "label": "NumPy",
+        "concepts": [
+          "arrays",
+          "broadcasting",
+          "vectorization",
+          "indexing"
+        ],
+        "usesfull_where": [
+          "numerical computing",
+          "data preprocessing"
+        ],
+        "resources_website": "https://numpy.org/doc/stable/user/quickstart.html",
+        "projects": [
+          "image grayscale",
+          "matrix operations"
+        ]
+      },
+      {
+        "id": "pandas",
+        "label": "Pandas",
+        "concepts": [
+          "dataframes",
+          "groupby",
+          "merging",
+          "pivot tables"
+        ],
+        "usesfull_where": [
+          "data cleaning",
+          "exploratory data analysis"
+        ],
+        "resources_website": "https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html",
+        "projects": [
+          "sales analysis",
+          "covid data exploration"
+        ]
+      },
+      {
+        "id": "matplotlib",
+        "label": "Matplotlib",
+        "concepts": [
+          "figures",
+          "axes",
+          "plots",
+          "subplots",
+          "styling"
+        ],
+        "usesfull_where": [
+          "data visualization",
+          "model results"
+        ],
+        "resources_website": "https://matplotlib.org/stable/tutorials/index.html",
+        "projects": [
+          "stock price plots",
+          "correlation heatmaps"
+        ]
+      },
+      {
+        "id": "seaborn",
+        "label": "Seaborn",
+        "concepts": [
+          "statistical plots",
+          "pairplots",
+          "distribution plots"
+        ],
+        "usesfull_where": [
+          "quick EDA",
+          "publication visuals"
+        ],
+        "resources_website": "https://seaborn.pydata.org/tutorial.html",
+        "projects": [
+          "titanic visualizations",
+          "iris pairplot"
+        ]
+      },
+      {
+        "id": "scipy",
+        "label": "SciPy",
+        "concepts": [
+          "stats",
+          "optimization",
+          "signal processing"
+        ],
+        "usesfull_where": [
+          "hypothesis testing",
+          "feature engineering"
+        ],
+        "resources_website": "https://docs.scipy.org/doc/scipy/tutorial/index.html",
+        "projects": [
+          "A/B testing",
+          "outlier detection"
+        ]
+      },
+      {
+        "id": "linear_algebra",
+        "label": "Linear Algebra",
+        "concepts": [
+          "vectors",
+          "matrices",
+          "eigenvalues",
+          "SVD"
+        ],
+        "usesfull_where": [
+          "dimensionality reduction",
+          "neural nets"
+        ],
+        "resources_website": "https://www.khanacademy.org/math/linear-algebra",
+        "projects": [
+          "PCA from scratch",
+          "image compression"
+        ]
+      },
+      {
+        "id": "calculus",
+        "label": "Calculus & Optimization",
+        "concepts": [
+          "derivatives",
+          "gradients",
+          "chain rule",
+          "gradient descent"
+        ],
+        "usesfull_where": [
+          "model training",
+          "backpropagation"
+        ],
+        "resources_website": "https://www.khanacademy.org/math/calculus-1",
+        "projects": [
+          "gradient descent viz",
+          "logistic regression from scratch"
+        ]
+      },
+      {
+        "id": "probability_stats",
+        "label": "Probability & Statistics",
+        "concepts": [
+          "distributions",
+          "Bayes theorem",
+          "MLE",
+          "confidence intervals"
+        ],
+        "usesfull_where": [
+          "model evaluation",
+          "Bayesian models"
+        ],
+        "resources_website": "https://www.khanacademy.org/math/statistics-probability",
+        "projects": [
+          "coin bias estimation",
+          "confidence intervals sim"
+        ]
+      },
+      {
+        "id": "sklearn_intro",
+        "label": "Scikit-learn Intro",
+        "concepts": [
+          "estimators",
+          "fit/predict",
+          "pipelines",
+          "preprocessing"
+        ],
+        "usesfull_where": [
+          "baseline models",
+          "cross-validation"
+        ],
+        "resources_website": "https://scikit-learn.org/stable/getting_started.html",
+        "projects": [
+          "iris classifier",
+          "house price regression"
+        ]
+      },
+      {
+        "id": "supervised_learning",
+        "label": "Supervised Learning",
+        "concepts": [
+          "train/test split",
+          "cross-validation",
+          "metrics"
+        ],
+        "usesfull_where": [
+          "classification",
+          "regression"
+        ],
+        "resources_website": "https://scikit-learn.org/stable/supervised_learning.html",
+        "projects": [
+          "loan default prediction",
+          "bike demand forecast"
+        ]
+      },
+      {
+        "id": "linear_regression",
+        "label": "Linear Regression",
+        "concepts": [
+          "OLS",
+          "regularization",
+          "Ridge",
+          "Lasso"
+        ],
+        "usesfull_where": [
+          "baseline regression",
+          "feature selection"
+        ],
+        "resources_website": "https://scikit-learn.org/stable/modules/linear_model.html",
+        "projects": [
+          "boston housing",
+          "student scores prediction"
+        ]
+      },
+      {
+        "id": "logistic_regression",
+        "label": "Logistic Regression",
+        "concepts": [
+          "sigmoid",
+          "log-loss",
+          "ROC",
+          "AUC"
+        ],
+        "usesfull_where": [
+          "binary classification",
+          "probabilistic output"
+        ],
+        "resources_website": "https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression",
+        "projects": [
+          "spam detection",
+          "churn prediction"
+        ]
+      },
+      {
+        "id": "knn",
+        "label": "k-Nearest Neighbors",
+        "concepts": [
+          "distance metrics",
+          "k selection",
+          "curse of dimensionality"
+        ],
+        "usesfull_where": [
+          "simple classification",
+          "recommendation"
+        ],
+        "resources_website": "https://scikit-learn.org/stable/modules/neighbors.html",
+        "projects": [
+          "digit recognizer",
+          "movie recommender"
+        ]
+      },
+      {
+        "id": "svm",
+        "label": "Support Vector Machines",
+        "concepts": [
+          "margin",
+          "kernel trick",
+          "C parameter",
+          "gamma"
+        ],
+        "usesfull_where": [
+          "high-dimensional data",
+          "text classification"
+        ],
+        "resources_website": "https://scikit-learn.org/stable/modules/svm.html",
+        "projects": [
+          "MNIST with SVM",
+          "sentiment analysis"
+        ]
+      },
+      {
+        "id": "decision_trees",
+        "label": "Decision Trees",
+        "concepts": [
+          "entropy",
+          "gini",
+          "pruning",
+          "overfitting"
+        ],
+        "usesfull_where": [
+          "interpretable models",
+          "feature importance"
+        ],
+        "resources_website": "https://scikit-learn.org/stable/modules/tree.html",
+        "projects": [
+          "credit approval",
+          "wine classification"
+        ]
+      },
+      {
+        "id": "ensemble_methods",
+        "label": "Ensemble Methods",
+        "concepts": [
+          "bagging",
+          "boosting",
+          "Random Forest",
+          "AdaBoost"
+        ],
+        "usesfull_where": [
+          "improving accuracy",
+          "robust models"
+        ],
+        "resources_website": "https://scikit-learn.org/stable/modules/ensemble.html",
+        "projects": [
+          "titanic survival",
+          "employee attrition"
+        ]
+      },
+      {
+        "id": "xgboost",
+        "label": "XGBoost",
+        "concepts": [
+          "gradient boosting",
+          "regularization",
+          "early stopping"
+        ],
+        "usesfull_where": [
+          "tabular competitions",
+          "structured data"
+        ],
+        "resources_website": "https://xgboost.readthedocs.io/en/stable/get_started.html",
+        "projects": [
+          "kaggle house prices",
+          "fraud detection"
+        ]
+      },
+      {
+        "id": "unsupervised_learning",
+        "label": "Unsupervised Learning",
+        "concepts": [
+          "clustering",
+          "dimensionality reduction",
+          "k-means"
+        ],
+        "usesfull_where": [
+          "customer segmentation",
+          "anomaly detection"
+        ],
+        "resources_website": "https://scikit-learn.org/stable/unsupervised_learning.html",
+        "projects": [
+          "mall customer clusters",
+          "image compression"
+        ]
+      },
+      {
+        "id": "pca",
+        "label": "Principal Component Analysis",
+        "concepts": [
+          "variance explained",
+          "eigenfaces",
+          "whitening"
+        ],
+        "usesfull_where": [
+          "visualization",
+          "noise reduction"
+        ],
+        "resources_website": "https://scikit-learn.org/stable/modules/decomposition.html#pca",
+        "projects": [
+          "face recognition",
+          "wine quality viz"
+        ]
+      },
+      {
+        "id": "clustering",
+        "label": "Clustering Algorithms",
+        "concepts": [
+          "k-means",
+          "DBSCAN",
+          "hierarchical",
+          "silhouette"
+        ],
+        "usesfull_where": [
+          "segmentation",
+          "anomaly detection"
+        ],
+        "resources_website": "https://scikit-learn.org/stable/modules/clustering.html",
+        "projects": [
+          "document clustering",
+          "market segmentation"
+        ]
+      },
+      {
+        "id": "feature_engineering",
+        "label": "Feature Engineering",
+        "concepts": [
+          "imputation",
+          "encoding",
+          "scaling",
+          "interaction terms"
+        ],
+        "usesfull_where": [
+          "model performance",
+          "domain insights"
+        ],
+        "resources_website": "https://www.kaggle.com/learn/feature-engineering",
+        "projects": [
+          "ames housing features",
+          "telco churn features"
+        ]
+      },
+      {
+        "id": "model_evaluation",
+        "label": "Model Evaluation & Metrics",
+        "concepts": [
+          "accuracy",
+          "precision/recall",
+          "F1",
+          "MSE"
+        ],
+        "usesfull_where": [
+          "model selection",
+          "performance tracking"
+        ],
+        "resources_website": "https://scikit-learn.org/stable/model_evaluation.html",
+        "projects": [
+          "model comparison dashboard",
+          "metric selection guide"
+        ]
+      },
+      {
+        "id": "hyperparameter_tuning",
+        "label": "Hyperparameter Tuning",
+        "concepts": [
+          "grid search",
+          "random search",
+          "Bayesian opt",
+          "cross-val"
+        ],
+        "usesfull_where": [
+          "maximize performance",
+          "automated ML"
+        ],
+        "resources_website": "https://scikit-learn.org/stable/modules/grid_search.html",
+        "projects": [
+          "tune random forest",
+          "optimize XGBoost"
+        ]
+      },
+      {
+        "id": "pipelines",
+        "label": "ML Pipelines",
+        "concepts": [
+          "Pipeline",
+          "ColumnTransformer",
+          "custom transformers"
+        ],
+        "usesfull_where": [
+          "reproducible workflows",
+          "production"
+        ],
+        "resources_website": "https://scikit-learn.org/stable/modules/compose.html",
+        "projects": [
+          "end-to-end telco churn",
+          "credit scoring pipeline"
+        ]
+      },
+      {
+        "id": "time_series",
+        "label": "Time Series Forecasting",
+        "concepts": [
+          "trends",
+          "seasonality",
+          "ARIMA",
+          "prophet"
+        ],
+        "usesfull_where": [
+          "demand forecasting",
+          "finance"
+        ],
+        "resources_website": "https://www.kaggle.com/learn/time-series",
+        "projects": [
+          "bitcoin price forecast",
+          "store sales prediction"
+        ]
+      },
+      {
+        "id": "nlp_intro",
+        "label": "Natural Language Processing",
+        "concepts": [
+          "tokenization",
+          "TF-IDF",
+          "n-grams",
+          "stemming"
+        ],
+        "usesfull_where": [
+          "sentiment",
+          "search",
+          "chatbots"
+        ],
+        "resources_website": "https://www.kaggle.com/learn/natural-language-processing",
+        "projects": [
+          "twitter sentiment",
+          "email spam"
+        ]
+      },
+      {
+        "id": "word_embeddings",
+        "label": "Word Embeddings",
+        "concepts": [
+          "word2vec",
+          "GloVe",
+          "doc2vec",
+          "cosine similarity"
+        ],
+        "usesfull_where": [
+          "semantic search",
+          "recommendations"
+        ],
+        "resources_website": "https://www.kaggle.com/learn/embeddings",
+        "projects": [
+          "quora question pairs",
+          "movie plot similarity"
+        ]
+      },
+      {
+        "id": "neural_networks",
+        "label": "Neural Networks Basics",
+        "concepts": [
+          "perceptron",
+          "activation",
+          "backprop",
+          "epochs"
+        ],
+        "usesfull_where": [
+          "non-linear patterns",
+          "deep learning base"
+        ],
+        "resources_website": "https://www.tensorflow.org/tutorials/quickstart/beginner",
+        "projects": [
+          "XOR solver",
+          "mnist dense"
+        ]
+      },
+      {
+        "id": "tensorflow_keras",
+        "label": "TensorFlow & Keras",
+        "concepts": [
+          "models",
+          "layers",
+          "optimizers",
+          "callbacks"
+        ],
+        "usesfull_where": [
+          "deep learning",
+          "production models"
+        ],
+        "resources_website": "https://www.tensorflow.org/guide/keras/overview",
+        "projects": [
+          "cifar-10 CNN",
+          "IMDB sentiment"
+        ]
+      },
+      {
+        "id": "cnn",
+        "label": "Convolutional Neural Networks",
+        "concepts": [
+          "convolution",
+          "pooling",
+          "filters",
+          "transfer learning"
+        ],
+        "usesfull_where": [
+          "image classification",
+          "medical imaging"
+        ],
+        "resources_website": "https://www.tensorflow.org/tutorials/images/cnn",
+        "projects": [
+          "cat vs dog",
+          "pneumonia detection"
+        ]
+      },
+      {
+        "id": "rnn",
+        "label": "Recurrent Neural Networks",
+        "concepts": [
+          "LSTM",
+          "GRU",
+          "sequences",
+          "bidirectional"
+        ],
+        "usesfull_where": [
+          "text generation",
+          "time series"
+        ],
+        "resources_website": "https://www.tensorflow.org/guide/keras/rnn",
+        "projects": [
+          "shakespeare generator",
+          "stock prediction"
+        ]
+      },
+      {
+        "id": "transfer_learning",
+        "label": "Transfer Learning",
+        "concepts": [
+          "pretrained models",
+          "fine tuning",
+          "feature extraction"
+        ],
+        "usesfull_where": [
+          "small datasets",
+          "fast prototyping"
+        ],
+        "resources_website": "https://www.tensorflow.org/tutorials/images/transfer_learning",
+        "projects": [
+          "flower classification",
+          "custom object detector"
+        ]
+      },
+      {
+        "id": "autoencoders",
+        "label": "Autoencoders",
+        "concepts": [
+          "encoder/decoder",
+          "latent space",
+          "denoising",
+          "VAE"
+        ],
+        "usesfull_where": [
+          "dimensionality reduction",
+          "anomaly detection"
+        ],
+        "resources_website": "https://www.tensorflow.org/tutorials/generative/autoencoder",
+        "projects": [
+          "fashion MNIST compression",
+          "credit card fraud"
+        ]
+      },
+      {
+        "id": "gans",
+        "label": "Generative Adversarial Networks",
+        "concepts": [
+          "generator",
+          "discriminator",
+          "adversarial loss",
+          "DCGAN"
+        ],
+        "usesfull_where": [
+          "image generation",
+          "data augmentation"
+        ],
+        "resources_website": "https://www.tensorflow.org/tutorials/generative/dcgan",
+        "projects": [
+          "generate faces",
+          "anime characters"
+        ]
+      },
+      {
+        "id": "reinforcement_learning",
+        "label": "Reinforcement Learning",
+        "concepts": [
+          "agent",
+          "environment",
+          "policy",
+          "Q-learning"
+        ],
+        "usesfull_where": [
+          "game AI",
+          "robotics",
+          "trading"
+        ],
+        "resources_website": "https://www.kaggle.com/learn/intro-to-reinforcement-learning",
+        "projects": [
+          "taxi-v3 solver",
+          "flappy bird bot"
+        ]
+      },
+      {
+        "id": "mlops",
+        "label": "MLOps & Deployment",
+        "concepts": [
+          "model versioning",
+          "CI/CD",
+          "Docker",
+          "monitoring"
+        ],
+        "usesfull_where": [
+          "production systems",
+          "scalability"
+        ],
+        "resources_website": "https://ml-ops.org/content/deployment",
+        "projects": [
+          "deploy with FastAPI",
+          "model drift detector"
+        ]
+      },
+      {
+        "id": "cloud_platforms",
+        "label": "Cloud ML Platforms",
+        "concepts": [
+          "GCP AI",
+          "AWS SageMaker",
+          "Azure ML",
+          "serverless"
+        ],
+        "usesfull_where": [
+          "scalable training",
+          "managed serving"
+        ],
+        "resources_website": "https://cloud.google.com/ai-platform/docs",
+        "projects": [
+          "sagemaker pipeline",
+          "vertex AI endpoint"
+        ]
+      },
+      {
+        "id": "ethical_ai",
+        "label": "Ethical AI & Fairness",
+        "concepts": [
+          "bias detection",
+          "fairness metrics",
+          "explainability",
+          "privacy"
+        ],
+        "usesfull_where": [
+          "regulated industries",
+          "responsible AI"
+        ],
+        "resources_website": "https://fairlearn.org/main/user-guide/index.html",
+        "projects": [
+          "fairness in lending",
+          "explainable cancer diagnosis"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from_node": "python_basics",
+        "to_node": "numpy"
+      },
+      {
+        "from_node": "python_basics",
+        "to_node": "pandas"
+      },
+      {
+        "from_node": "numpy",
+        "to_node": "pandas"
+      },
+      {
+        "from_node": "numpy",
+        "to_node": "scipy"
+      },
+      {
+        "from_node": "pandas",
+        "to_node": "matplotlib"
+      },
+      {
+        "from_node": "matplotlib",
+        "to_node": "seaborn"
+      },
+      {
+        "from_node": "numpy",
+        "to_node": "linear_algebra"
+      },
+      {
+        "from_node": "scipy",
+        "to_node": "linear_regression"
+      },
+      {
+        "from_node": "pandas",
+        "to_node": "sklearn_intro"
+      },
+      {
+        "from_node": "matplotlib",
+        "to_node": "sklearn_intro"
+      },
+      {
+        "from_node": "sklearn_intro",
+        "to_node": "supervised_learning"
+      },
+      {
+        "from_node": "supervised_learning",
+        "to_node": "linear_regression"
+      },
+      {
+        "from_node": "supervised_learning",
+        "to_node": "logistic_regression"
+      },
+      {
+        "from_node": "supervised_learning",
+        "to_node": "knn"
+      },
+      {
+        "from_node": "supervised_learning",
+        "to_node": "svm"
+      },
+      {
+        "from_node": "supervised_learning",
+        "to_node": "decision_trees"
+      },
+      {
+        "from_node": "decision_trees",
+        "to_node": "ensemble_methods"
+      },
+      {
+        "from_node": "ensemble_methods",
+        "to_node": "xgboost"
+      },
+      {
+        "from_node": "sklearn_intro",
+        "to_node": "unsupervised_learning"
+      },
+      {
+        "from_node": "unsupervised_learning",
+        "to_node": "pca"
+      },
+      {
+        "from_node": "unsupervised_learning",
+        "to_node": "clustering"
+      },
+      {
+        "from_node": "linear_algebra",
+        "to_node": "pca"
+      },
+      {
+        "from_node": "supervised_learning",
+        "to_node": "model_evaluation"
+      },
+      {
+        "from_node": "model_evaluation",
+        "to_node": "hyperparameter_tuning"
+      },
+      {
+        "from_node": "sklearn_intro",
+        "to_node": "pipelines"
+      },
+      {
+        "from_node": "feature_engineering",
+        "to_node": "pipelines"
+      },
+      {
+        "from_node": "hyperparameter_tuning",
+        "to_node": "pipelines"
+      },
+      {
+        "from_node": "pandas",
+        "to_node": "time_series"
+      },
+      {
+        "from_node": "sklearn_intro",
+        "to_node": "nlp_intro"
+      },
+      {
+        "from_node": "nlp_intro",
+        "to_node": "word_embeddings"
+      },
+      {
+        "from_node": "python_basics",
+        "to_node": "neural_networks"
+      },
+      {
+        "from_node": "neural_networks",
+        "to_node": "tensorflow_keras"
+      },
+      {
+        "from_node": "tensorflow_keras",
+        "to_node": "cnn"
+      },
+      {
+        "from_node": "tensorflow_keras",
+        "to_node": "rnn"
+      },
+      {
+        "from_node": "cnn",
+        "to_node": "transfer_learning"
+      },
+      {
+        "from_node": "tensorflow_keras",
+        "to_node": "autoencoders"
+      },
+      {
+        "from_node": "tensorflow_keras",
+        "to_node": "gans"
+      },
+      {
+        "from_node": "calculus",
+        "to_node": "reinforcement_learning"
+      },
+      {
+        "from_node": "pipelines",
+        "to_node": "mlops"
+      },
+      {
+        "from_node": "mlops",
+        "to_node": "cloud_platforms"
+      },
+      {
+        "from_node": "model_evaluation",
+        "to_node": "ethical_ai"
+      }
+    ]
+  }
+},
+
+
+
+
+
+
+{
+  "Poster_url":"https://znuiuhxyhpgqmdftansc.supabase.co/storage/v1/object/public/files/Web_dev.jpg",
+  "respone": {
+    "nodes": [
+      {
+        "id": "html_basics",
+        "label": "HTML Basics",
+        "concepts": [
+          "elements",
+          "attributes",
+          "semantic_tags",
+          "forms",
+          "tables"
+        ],
+        "usesfull_where": [
+          "web_pages",
+          "emails",
+          "markdown"
+        ],
+        "resources_website": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "projects": [
+          "build_personal_page",
+          "newsletter_template"
+        ]
+      },
+      {
+        "id": "css_basics",
+        "label": "CSS Basics",
+        "concepts": [
+          "selectors",
+          "box_model",
+          "flexbox",
+          "grid",
+          "media_queries"
+        ],
+        "usesfull_where": [
+          "styling",
+          "responsive_design",
+          "print_styles"
+        ],
+        "resources_website": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "projects": [
+          "style_personal_page",
+          "responsive_landing"
+        ]
+      },
+      {
+        "id": "js_basics",
+        "label": "JavaScript Basics",
+        "concepts": [
+          "variables",
+          "functions",
+          "arrays",
+          "objects",
+          "dom_manipulation"
+        ],
+        "usesfull_where": [
+          "interactivity",
+          "browser_apis",
+          "forms"
+        ],
+        "resources_website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "projects": [
+          "todo_list",
+          "calculator"
+        ]
+      },
+      {
+        "id": "git_github",
+        "label": "Git & GitHub",
+        "concepts": [
+          "commits",
+          "branches",
+          "pull_requests",
+          "merge_conflicts",
+          "github_pages"
+        ],
+        "usesfull_where": [
+          "version_control",
+          "collaboration",
+          "deployment"
+        ],
+        "resources_website": "https://docs.github.com/en",
+        "projects": [
+          "host_static_site",
+          "portfolio_repo"
+        ]
+      },
+      {
+        "id": "css_advanced",
+        "label": "Advanced CSS",
+        "concepts": [
+          "custom_properties",
+          "animations",
+          "transitions",
+          "transforms",
+          "architecture"
+        ],
+        "usesfull_where": [
+          "design_systems",
+          "micro_interactions",
+          "performance"
+        ],
+        "resources_website": "https://www.smashingmagazine.com/guides/css-complete-guide/",
+        "projects": [
+          "dark_mode_toggle",
+          "animated_landing"
+        ]
+      },
+      {
+        "id": "js_es6_plus",
+        "label": "Modern JavaScript",
+        "concepts": [
+          "arrow_functions",
+          "destructuring",
+          "modules",
+          "promises",
+          "async_await"
+        ],
+        "usesfull_where": [
+          "clean_code",
+          "bundlers",
+          "apis"
+        ],
+        "resources_website": "https://javascript.info/",
+        "projects": [
+          "weather_app",
+          "quiz_game"
+        ]
+      },
+      {
+        "id": "package_managers",
+        "label": "Package Managers",
+        "concepts": [
+          "npm",
+          "yarn",
+          "package_json",
+          "semver",
+          "scripts"
+        ],
+        "usesfull_where": [
+          "dependency_management",
+          "automation",
+          "publishing"
+        ],
+        "resources_website": "https://docs.npmjs.com/",
+        "projects": [
+          "setup_dev_env",
+          "publish_npm_pkg"
+        ]
+      },
+      {
+        "id": "build_tools",
+        "label": "Build Tools",
+        "concepts": [
+          "webpack",
+          "vite",
+          "parcel",
+          "babel",
+          "postcss"
+        ],
+        "usesfull_where": [
+          "bundling",
+          "transpiling",
+          "optimization"
+        ],
+        "resources_website": "https://webpack.js.org/concepts/",
+        "projects": [
+          "bundle_app",
+          "optimize_assets"
+        ]
+      },
+      {
+        "id": "typescript",
+        "label": "TypeScript",
+        "concepts": [
+          "types",
+          "interfaces",
+          "generics",
+          "enums",
+          "decorators"
+        ],
+        "usesfull_where": [
+          "type_safety",
+          "large_codebases",
+          "react_vue"
+        ],
+        "resources_website": "https://www.typescriptlang.org/docs/",
+        "projects": [
+          "typed_todo",
+          "api_client"
+        ]
+      },
+      {
+        "id": "react_basics",
+        "label": "React Basics",
+        "concepts": [
+          "components",
+          "jsx",
+          "props",
+          "state",
+          "hooks"
+        ],
+        "usesfull_where": [
+          "spa",
+          "mobile",
+          "desktop"
+        ],
+        "resources_website": "https://react.dev/learn",
+        "projects": [
+          "todo_react",
+          "blog_frontend"
+        ]
+      },
+      {
+        "id": "react_advanced",
+        "label": "Advanced React",
+        "concepts": [
+          "context",
+          "reducer",
+          "memo",
+          "custom_hooks",
+          "suspense"
+        ],
+        "usesfull_where": [
+          "state_management",
+          "performance",
+          "code_splitting"
+        ],
+        "resources_website": "https://react.dev/reference/react",
+        "projects": [
+          "ecommerce_site",
+          "admin_dashboard"
+        ]
+      },
+      {
+        "id": "nextjs",
+        "label": "Next.js",
+        "concepts": [
+          "ssr",
+          "ssg",
+          "api_routes",
+          "image_optimization",
+          "routing"
+        ],
+        "usesfull_where": [
+          "seo",
+          "performance",
+          "fullstack"
+        ],
+        "resources_website": "https://nextjs.org/docs",
+        "projects": [
+          "portfolio_ssg",
+          "ecommerce_fullstack"
+        ]
+      },
+      {
+        "id": "testing",
+        "label": "Testing",
+        "concepts": [
+          "jest",
+          "react_testing_library",
+          "cypress",
+          "unit_tests",
+          "e2e"
+        ],
+        "usesfull_where": [
+          "quality",
+          "ci_cd",
+          "refactoring"
+        ],
+        "resources_website": "https://jestjs.io/docs/getting-started",
+        "projects": [
+          "test_todo",
+          "e2e_shop"
+        ]
+      },
+      {
+        "id": "state_management",
+        "label": "State Management",
+        "concepts": [
+          "redux",
+          "zustand",
+          "recoil",
+          "context_patterns",
+          "persistence"
+        ],
+        "usesfull_where": [
+          "large_apps",
+          "realtime",
+          "offline"
+        ],
+        "resources_website": "https://redux.js.org/tutorials/essentials",
+        "projects": [
+          "redux_shop",
+          "chat_app"
+        ]
+      },
+      {
+        "id": "performance",
+        "label": "Performance Optimization",
+        "concepts": [
+          "lazy_loading",
+          "code_splitting",
+          "caching",
+          "virtual_dom",
+          "pwa"
+        ],
+        "usesfull_where": [
+          "mobile",
+          "seo",
+          "conversion"
+        ],
+        "resources_website": "https://web.dev/performance/",
+        "projects": [
+          "pwa_weather",
+          "lazy_image_gallery"
+        ]
+      },
+      {
+        "id": "accessibility",
+        "label": "Accessibility",
+        "concepts": [
+          "aria",
+          "keyboard_nav",
+          "screen_readers",
+          "color_contrast",
+          "focus"
+        ],
+        "usesfull_where": [
+          "compliance",
+          "inclusion",
+          "ux"
+        ],
+        "resources_website": "https://www.w3.org/WAI/fundamentals/",
+        "projects": [
+          "a11y_form",
+          "screen_reader_site"
+        ]
+      },
+      {
+        "id": "design_systems",
+        "label": "Design Systems",
+        "concepts": [
+          "storybook",
+          "component_libraries",
+          "tokens",
+          "documentation",
+          "theming"
+        ],
+        "usesfull_where": [
+          "consistency",
+          "scaling",
+          "collaboration"
+        ],
+        "resources_website": "https://storybook.js.org/docs",
+        "projects": [
+          "ui_library",
+          "token_system"
+        ]
+      },
+      {
+        "id": "micro_frontends",
+        "label": "Micro-frontends",
+        "concepts": [
+          "module_federation",
+          "shell_app",
+          "shared_deps",
+          "deployment",
+          "team_scaling"
+        ],
+        "usesfull_where": [
+          "enterprise",
+          "independent_deploy",
+          "legacy"
+        ],
+        "resources_website": "https://micro-frontends.org/",
+        "projects": [
+          "shell_dashboard",
+          "federated_cart"
+        ]
+      },
+      {
+        "id": "webassembly",
+        "label": "WebAssembly",
+        "concepts": [
+          "rust_wasm",
+          "emscripten",
+          "wasm_bindgen",
+          "performance",
+          "security"
+        ],
+        "usesfull_where": [
+          "games",
+          "image_processing",
+          "crypto"
+        ],
+        "resources_website": "https://webassembly.org/getting-started/",
+        "projects": [
+          "wasm_image_filter",
+          "game_engine"
+        ]
+      },
+      {
+        "id": "serverless_frontend",
+        "label": "Serverless for Frontend",
+        "concepts": [
+          "jamstack",
+          "netlify_functions",
+          "vercel_edge",
+          "faas",
+          "static_gen"
+        ],
+        "usesfull_where": [
+          "scalability",
+          "cost",
+          "global_edge"
+        ],
+        "resources_website": "https://www.netlify.com/products/functions/",
+        "projects": [
+          "serverless_blog",
+          "edge_auth"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from_node": "html_basics",
+        "to_node": "css_basics"
+      },
+      {
+        "from_node": "html_basics",
+        "to_node": "js_basics"
+      },
+      {
+        "from_node": "css_basics",
+        "to_node": "css_advanced"
+      },
+      {
+        "from_node": "js_basics",
+        "to_node": "js_es6_plus"
+      },
+      {
+        "from_node": "git_github",
+        "to_node": "package_managers"
+      },
+      {
+        "from_node": "js_es6_plus",
+        "to_node": "package_managers"
+      },
+      {
+        "from_node": "package_managers",
+        "to_node": "build_tools"
+      },
+      {
+        "from_node": "js_es6_plus",
+        "to_node": "typescript"
+      },
+      {
+        "from_node": "build_tools",
+        "to_node": "react_basics"
+      },
+      {
+        "from_node": "typescript",
+        "to_node": "react_basics"
+      },
+      {
+        "from_node": "react_basics",
+        "to_node": "react_advanced"
+      },
+      {
+        "from_node": "react_advanced",
+        "to_node": "nextjs"
+      },
+      {
+        "from_node": "react_advanced",
+        "to_node": "testing"
+      },
+      {
+        "from_node": "react_advanced",
+        "to_node": "state_management"
+      },
+      {
+        "from_node": "state_management",
+        "to_node": "performance"
+      },
+      {
+        "from_node": "nextjs",
+        "to_node": "performance"
+      },
+      {
+        "from_node": "testing",
+        "to_node": "accessibility"
+      },
+      {
+        "from_node": "performance",
+        "to_node": "design_systems"
+      },
+      {
+        "from_node": "design_systems",
+        "to_node": "micro_frontends"
+      },
+      {
+        "from_node": "performance",
+        "to_node": "webassembly"
+      },
+      {
+        "from_node": "nextjs",
+        "to_node": "serverless_frontend"
+      }
+    ]
+  }
+},
+
+
+{
+  
+  "Poster_url":"https://znuiuhxyhpgqmdftansc.supabase.co/storage/v1/object/public/files/cloud_computing.jpg",
+  "respone": {
+    "nodes": [
+      {
+        "id": "basics_of_computing",
+        "label": "Basics of Computing",
+        "concepts": [
+          "computer organization",
+          "operating systems basics",
+          "network fundamentals"
+        ],
+        "usesfull_where": [
+          "foundation for cloud concepts",
+          "understanding virtualization"
+        ],
+        "resources_website": "https://www.edx.org/course/introduction-to-computer-science",
+        "projects": [
+          "build a home lab with VirtualBox",
+          "set up a small LAN"
+        ]
+      },
+      {
+        "id": "linux_command_line",
+        "label": "Linux Command Line",
+        "concepts": [
+          "bash scripting",
+          "file system permissions",
+          "process management"
+        ],
+        "usesfull_where": [
+          "managing cloud VMs",
+          "automation scripts"
+        ],
+        "resources_website": "https://ubuntu.com/tutorials/command-line-for-beginners",
+        "projects": [
+          "write backup script",
+          "automate user creation"
+        ]
+      },
+      {
+        "id": "networking_fundamentals",
+        "label": "Networking Fundamentals",
+        "concepts": [
+          "TCP/IP",
+          "subnetting",
+          "routing & switching",
+          "DNS",
+          "HTTP/HTTPS"
+        ],
+        "usesfull_where": [
+          "cloud VPC design",
+          "load balancing",
+          "security groups"
+        ],
+        "resources_website": "https://www.cisco.com/c/en/us/solutions/small-business/networking/what-is-networking.html",
+        "projects": [
+          "design a subnet scheme",
+          "configure a home router"
+        ]
+      },
+      {
+        "id": "virtualization_basics",
+        "label": "Virtualization Basics",
+        "concepts": [
+          "hypervisors",
+          "VM lifecycle",
+          "virtual storage",
+          "virtual networking"
+        ],
+        "usesfull_where": [
+          "IaaS foundations",
+          "containerization"
+        ],
+        "resources_website": "https://www.vmware.com/topics/glossary/content/virtualization.html",
+        "projects": [
+          "install ESXi",
+          "create VM templates"
+        ]
+      },
+      {
+        "id": "cloud_concepts",
+        "label": "Cloud Concepts",
+        "concepts": [
+          "IaaS vs PaaS vs SaaS",
+          "public vs private vs hybrid",
+          "multi-tenancy",
+          "elasticity",
+          "pay-as-you-go"
+        ],
+        "usesfull_where": [
+          "architecting solutions",
+          "cost optimization"
+        ],
+        "resources_website": "https://aws.amazon.com/what-is-cloud-computing/",
+        "projects": [
+          "compare cloud providers",
+          "build a cost calculator"
+        ]
+      },
+      {
+        "id": "aws_core_services",
+        "label": "AWS Core Services",
+        "concepts": [
+          "IAM",
+          "EC2",
+          "EBS",
+          "VPC",
+          "S3",
+          "CloudFormation"
+        ],
+        "usesfull_where": [
+          "deploying apps",
+          "infrastructure as code"
+        ],
+        "resources_website": "https://docs.aws.amazon.com/",
+        "projects": [
+          "host a static site on S3",
+          "deploy a web server on EC2"
+        ]
+      },
+      {
+        "id": "azure_core_services",
+        "label": "Azure Core Services",
+        "concepts": [
+          "Azure Active Directory",
+          "VMs",
+          "Blob Storage",
+          "VNet",
+          "Resource Manager"
+        ],
+        "usesfull_where": [
+          "enterprise integration",
+          "Microsoft ecosystem"
+        ],
+        "resources_website": "https://docs.microsoft.com/en-us/azure/",
+        "projects": [
+          "deploy Linux VM",
+          "host a .NET app"
+        ]
+      },
+      {
+        "id": "gcp_core_services",
+        "label": "GCP Core Services",
+        "concepts": [
+          "IAM",
+          "Compute Engine",
+          "Cloud Storage",
+          "VPC",
+          "Deployment Manager"
+        ],
+        "usesfull_where": [
+          "data analytics",
+          "Kubernetes engine"
+        ],
+        "resources_website": "https://cloud.google.com/docs",
+        "projects": [
+          "run a dataflow job",
+          "deploy a container"
+        ]
+      },
+      {
+        "id": "infrastructure_as_code",
+        "label": "Infrastructure as Code",
+        "concepts": [
+          "Terraform",
+          "AWS CloudFormation",
+          "Azure ARM",
+          "Pulumi"
+        ],
+        "usesfull_where": [
+          "repeatable deployments",
+          "versioned infrastructure"
+        ],
+        "resources_website": "https://www.terraform.io/intro/index.html",
+        "projects": [
+          "write Terraform for VPC",
+          "parameterized templates"
+        ]
+      },
+      {
+        "id": "containers_docker",
+        "label": "Containers & Docker",
+        "concepts": [
+          "images vs containers",
+          "Dockerfile",
+          "docker-compose",
+          "registry"
+        ],
+        "usesfull_where": [
+          "microservices",
+          "CI/CD",
+          "ECS/GKE"
+        ],
+        "resources_website": "https://docs.docker.com/get-started/",
+        "projects": [
+          "containerize a web app",
+          "build CI image"
+        ]
+      },
+      {
+        "id": "kubernetes",
+        "label": "Kubernetes",
+        "concepts": [
+          "pods",
+          "deployments",
+          "services",
+          "ingress",
+          "helm"
+        ],
+        "usesfull_where": [
+          "orchestration",
+          "auto-scaling",
+          "zero-downtime deploys"
+        ],
+        "resources_website": "https://kubernetes.io/docs/home/",
+        "projects": [
+          "deploy microservices",
+          "set up ingress"
+        ]
+      },
+      {
+        "id": "serverless",
+        "label": "Serverless Computing",
+        "concepts": [
+          "Lambda",
+          "Azure Functions",
+          "Cloud Functions",
+          "event-driven",
+          "cold start"
+        ],
+        "usesfull_where": [
+          "cost-efficient APIs",
+          "data processing",
+          "IoT backends"
+        ],
+        "resources_website": "https://aws.amazon.com/lambda/getting-started/",
+        "projects": [
+          "image resize function",
+          "scheduled data cleanup"
+        ]
+      },
+      {
+        "id": "monitoring_logging",
+        "label": "Monitoring & Logging",
+        "concepts": [
+          "CloudWatch",
+          "Azure Monitor",
+          "Stackdriver",
+          "Prometheus",
+          "Grafana"
+        ],
+        "usesfull_where": [
+          "SLA compliance",
+          "troubleshooting",
+          "cost alerts"
+        ],
+        "resources_website": "https://grafana.com/docs/",
+        "projects": [
+          "create dashboards",
+          "set up alerts"
+        ]
+      },
+      {
+        "id": "cloud_security",
+        "label": "Cloud Security",
+        "concepts": [
+          "shared responsibility model",
+          "IAM policies",
+          "encryption at rest & in transit",
+          "KMS",
+          "WAF"
+        ],
+        "usesfull_where": [
+          "compliance",
+          "data protection",
+          "threat mitigation"
+        ],
+        "resources_website": "https://aws.amazon.com/security/introduction-to-cloud-security/",
+        "projects": [
+          "enforce MFA",
+          "encrypt S3 buckets"
+        ]
+      },
+      {
+        "id": "devops_ci_cd",
+        "label": "DevOps & CI/CD",
+        "concepts": [
+          "Jenkins",
+          "GitHub Actions",
+          "GitLab CI",
+          "blue-green deploy",
+          "canary"
+        ],
+        "usesfull_where": [
+          "agility",
+          "reliability",
+          "automated testing"
+        ],
+        "resources_website": "https://www.jenkins.io/doc/",
+        "projects": [
+          "build pipeline",
+          "automated tests"
+        ]
+      },
+      {
+        "id": "multi_cloud_strategy",
+        "label": "Multi-Cloud Strategy",
+        "concepts": [
+          "vendor lock-in avoidance",
+          "inter-cloud networking",
+          "cost arbitrage",
+          "portability"
+        ],
+        "usesfull_where": [
+          "enterprise resilience",
+          "best-of-breed services"
+        ],
+        "resources_website": "https://cloud.google.com/architecture/framework",
+        "projects": [
+          "cross-cloud data sync",
+          "failover design"
+        ]
+      },
+      {
+        "id": "cloud_cost_optimization",
+        "label": "Cloud Cost Optimization",
+        "concepts": [
+          "reserved vs spot vs on-demand",
+          "tagging",
+          "budgets",
+          "rightsizing"
+        ],
+        "usesfull_where": [
+          "FinOps",
+          "ROI improvement"
+        ],
+        "resources_website": "https://aws.amazon.com/aws-cost-management/",
+        "projects": [
+          "analyze cost explorer",
+          "implement spot fleet"
+        ]
+      },
+      {
+        "id": "advanced_networking",
+        "label": "Advanced Networking",
+        "concepts": [
+          "Direct Connect/ExpressRoute",
+          "VPN",
+          "Transit Gateway",
+          "peering",
+          "private link"
+        ],
+        "usesfull_where": [
+          "hybrid clouds",
+          "global architectures"
+        ],
+        "resources_website": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+        "projects": [
+          "set up site-to-site VPN",
+          "design hub-and-spoke"
+        ]
+      },
+      {
+        "id": "data_on_cloud",
+        "label": "Data on Cloud",
+        "concepts": [
+          "RDS vs Cloud SQL",
+          "DynamoDB",
+          "BigQuery",
+          "data lakes",
+          "ETL services"
+        ],
+        "usesfull_where": [
+          "analytics",
+          "ML pipelines",
+          "backups"
+        ],
+        "resources_website": "https://cloud.google.com/bigquery/docs",
+        "projects": [
+          "migrate MySQL to RDS",
+          "build data lake"
+        ]
+      },
+      {
+        "id": "disaster_recovery",
+        "label": "Disaster Recovery",
+        "concepts": [
+          "backup strategies",
+          "pilot light",
+          "warm standby",
+          "multi-region",
+          "RTO/RPO"
+        ],
+        "usesfull_where": [
+          "business continuity",
+          "compliance"
+        ],
+        "resources_website": "https://docs.aws.amazon.com/well-architected/latest/reliability-pillar/disaster-recovery.html",
+        "projects": [
+          "automated snapshots",
+          "cross-region replication"
+        ]
+      },
+      {
+        "id": "governance_compliance",
+        "label": "Governance & Compliance",
+        "concepts": [
+          "CloudTrail",
+          "Azure Policy",
+          "org policies",
+          "SOC/GDPR/HIPAA"
+        ],
+        "usesfull_where": [
+          "audit trails",
+          "policy enforcement"
+        ],
+        "resources_website": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies.html",
+        "projects": [
+          "apply SCPs",
+          "create compliance reports"
+        ]
+      },
+      {
+        "id": "edge_cloud",
+        "label": "Edge & Hybrid Cloud",
+        "concepts": [
+          "AWS Outposts",
+          "Azure Arc",
+          "IoT Core",
+          "Greengrass",
+          "CDN"
+        ],
+        "usesfull_where": [
+          "low latency",
+          "on-prem integration"
+        ],
+        "resources_website": "https://aws.amazon.com/edge/",
+        "projects": [
+          "deploy Lambda@Edge",
+          "hybrid Kubernetes"
+        ]
+      },
+      {
+        "id": "cloud_native_architecture",
+        "label": "Cloud-Native Architecture",
+        "concepts": [
+          "microservices",
+          "12-factor app",
+          "stateless vs stateful",
+          "CQRS",
+          "event sourcing"
+        ],
+        "usesfull_where": [
+          "scalability",
+          "developer velocity"
+        ],
+        "resources_website": "https://12factor.net/",
+        "projects": [
+          "refactor monolith",
+          "service mesh"
+        ]
+      },
+      {
+        "id": "scalability_performance",
+        "label": "Scalability & Performance",
+        "concepts": [
+          "auto-scaling",
+          "load testing",
+          "caching",
+          "CDN",
+          "read replicas"
+        ],
+        "usesfull_where": [
+          "handling traffic spikes",
+          "global users"
+        ],
+        "resources_website": "https://aws.amazon.com/autoscaling/",
+        "projects": [
+          "stress test with k6",
+          "implement Redis cache"
+        ]
+      },
+      {
+        "id": "machine_learning_cloud",
+        "label": "Machine Learning on Cloud",
+        "concepts": [
+          "SageMaker",
+          "Azure ML",
+          "AI Platform",
+          "pre-trained APIs",
+          "notebooks"
+        ],
+        "usesfull_where": [
+          "predictive analytics",
+          "recommendation engines"
+        ],
+        "resources_website": "https://docs.aws.amazon.com/sagemaker/",
+        "projects": [
+          "train image classifier",
+          "deploy endpoint"
+        ]
+      },
+      {
+        "id": "certifications",
+        "label": "Certifications",
+        "concepts": [
+          "AWS Solutions Architect",
+          "Azure Administrator",
+          "Google Cloud Engineer"
+        ],
+        "usesfull_where": [
+          "career advancement",
+          "credibility"
+        ],
+        "resources_website": "https://aws.amazon.com/certification/",
+        "projects": [
+          "practice exams",
+          "hands-on labs"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from_node": "basics_of_computing",
+        "to_node": "linux_command_line"
+      },
+      {
+        "from_node": "basics_of_computing",
+        "to_node": "networking_fundamentals"
+      },
+      {
+        "from_node": "linux_command_line",
+        "to_node": "virtualization_basics"
+      },
+      {
+        "from_node": "networking_fundamentals",
+        "to_node": "cloud_concepts"
+      },
+      {
+        "from_node": "virtualization_basics",
+        "to_node": "cloud_concepts"
+      },
+      {
+        "from_node": "cloud_concepts",
+        "to_node": "aws_core_services"
+      },
+      {
+        "from_node": "cloud_concepts",
+        "to_node": "azure_core_services"
+      },
+      {
+        "from_node": "cloud_concepts",
+        "to_node": "gcp_core_services"
+      },
+      {
+        "from_node": "aws_core_services",
+        "to_node": "infrastructure_as_code"
+      },
+      {
+        "from_node": "azure_core_services",
+        "to_node": "infrastructure_as_code"
+      },
+      {
+        "from_node": "gcp_core_services",
+        "to_node": "infrastructure_as_code"
+      },
+      {
+        "from_node": "infrastructure_as_code",
+        "to_node": "containers_docker"
+      },
+      {
+        "from_node": "containers_docker",
+        "to_node": "kubernetes"
+      },
+      {
+        "from_node": "kubernetes",
+        "to_node": "serverless"
+      },
+      {
+        "from_node": "aws_core_services",
+        "to_node": "monitoring_logging"
+      },
+      {
+        "from_node": "azure_core_services",
+        "to_node": "monitoring_logging"
+      },
+      {
+        "from_node": "gcp_core_services",
+        "to_node": "monitoring_logging"
+      },
+      {
+        "from_node": "monitoring_logging",
+        "to_node": "cloud_security"
+      },
+      {
+        "from_node": "cloud_security",
+        "to_node": "devops_ci_cd"
+      },
+      {
+        "from_node": "devops_ci_cd",
+        "to_node": "multi_cloud_strategy"
+      },
+      {
+        "from_node": "multi_cloud_strategy",
+        "to_node": "cloud_cost_optimization"
+      },
+      {
+        "from_node": "cloud_cost_optimization",
+        "to_node": "advanced_networking"
+      },
+      {
+        "from_node": "advanced_networking",
+        "to_node": "data_on_cloud"
+      },
+      {
+        "from_node": "data_on_cloud",
+        "to_node": "disaster_recovery"
+      },
+      {
+        "from_node": "disaster_recovery",
+        "to_node": "governance_compliance"
+      },
+      {
+        "from_node": "governance_compliance",
+        "to_node": "edge_cloud"
+      },
+      {
+        "from_node": "edge_cloud",
+        "to_node": "cloud_native_architecture"
+      },
+      {
+        "from_node": "cloud_native_architecture",
+        "to_node": "scalability_performance"
+      },
+      {
+        "from_node": "scalability_performance",
+        "to_node": "machine_learning_cloud"
+      },
+      {
+        "from_node": "machine_learning_cloud",
+        "to_node": "certifications"
+      }
+    ]
+  }
+},
+
+
+
+{
+  
+  "Poster_url":"https://znuiuhxyhpgqmdftansc.supabase.co/storage/v1/object/public/files/devops.jpg",
+  "respone": {
+    "nodes": [
+      {
+        "id": "linux_basics",
+        "label": "Linux Basics",
+        "concepts": [
+          "File system",
+          "Permissions",
+          "Package managers",
+          "Shell scripting",
+          "Process management"
+        ],
+        "usesfull_where": [
+          "Server management",
+          "Scripting",
+          "CI/CD pipelines",
+          "Containerization"
+        ],
+        "resources_website": "https://ubuntu.com/tutorials/command-line-for-beginners",
+        "projects": [
+          "Automated backup script",
+          "User management system",
+          "Log analyzer"
+        ]
+      },
+      {
+        "id": "version_control_git",
+        "label": "Version Control (Git)",
+        "concepts": [
+          "Repositories",
+          "Branches",
+          "Merging",
+          "Rebasing",
+          "Git workflows"
+        ],
+        "usesfull_where": [
+          "Code collaboration",
+          "Release management",
+          "CI/CD triggers"
+        ],
+        "resources_website": "https://git-scm.com/book/en/v2",
+        "projects": [
+          "Git hooks setup",
+          "Branch protection rules",
+          "Release automation"
+        ]
+      },
+      {
+        "id": "networking_fundamentals",
+        "label": "Networking Fundamentals",
+        "concepts": [
+          "TCP/IP",
+          "DNS",
+          "HTTP/HTTPS",
+          "Load balancing",
+          "Firewalls"
+        ],
+        "usesfull_where": [
+          "Service discovery",
+          "Security",
+          "Performance tuning"
+        ],
+        "resources_website": "https://www.cisco.com/c/en/us/solutions/small-business/networking/what-is-networking.html",
+        "projects": [
+          "Network topology design",
+          "DNS failover",
+          "Load balancer config"
+        ]
+      },
+      {
+        "id": "scripting_bash_python",
+        "label": "Scripting (Bash/Python)",
+        "concepts": [
+          "Automation",
+          "Error handling",
+          "Logging",
+          "API calls",
+          "File operations"
+        ],
+        "usesfull_where": [
+          "Infrastructure automation",
+          "Monitoring",
+          "Deployment scripts"
+        ],
+        "resources_website": "https://automatetheboringstuff.com",
+        "projects": [
+          "Server provisioning script",
+          "Health check dashboard",
+          "Log rotation tool"
+        ]
+      },
+      {
+        "id": "containerization_docker",
+        "label": "Containerization (Docker)",
+        "concepts": [
+          "Images",
+          "Containers",
+          "Dockerfile",
+          "Volumes",
+          "Networking"
+        ],
+        "usesfull_where": [
+          "Application packaging",
+          "Microservices",
+          "CI/CD",
+          "Development environments"
+        ],
+        "resources_website": "https://docs.docker.com/get-started/",
+        "projects": [
+          "Multi-stage build",
+          "Docker compose setup",
+          "Private registry"
+        ]
+      },
+      {
+        "id": "container_orchestration_k8s",
+        "label": "Container Orchestration (Kubernetes)",
+        "concepts": [
+          "Pods",
+          "Services",
+          "Deployments",
+          "ConfigMaps",
+          "Ingress"
+        ],
+        "usesfull_where": [
+          "Scalability",
+          "High availability",
+          "Rolling updates",
+          "Self-healing"
+        ],
+        "resources_website": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+        "projects": [
+          "Helm charts",
+          "HPA setup",
+          "Multi-cluster management"
+        ]
+      },
+      {
+        "id": "iac_terraform",
+        "label": "Infrastructure as Code (Terraform)",
+        "concepts": [
+          "Providers",
+          "Resources",
+          "State management",
+          "Modules",
+          "Workspaces"
+        ],
+        "usesfull_where": [
+          "Cloud provisioning",
+          "Multi-cloud",
+          "DR environments"
+        ],
+        "resources_website": "https://learn.hashicorp.com/terraform",
+        "projects": [
+          "VPC module",
+          "EKS cluster",
+          "State backend setup"
+        ]
+      },
+      {
+        "id": "configuration_management_ansible",
+        "label": "Configuration Management (Ansible)",
+        "concepts": [
+          "Playbooks",
+          "Roles",
+          "Inventory",
+          "Variables",
+          "Handlers"
+        ],
+        "usesfull_where": [
+          "Server setup",
+          "Compliance",
+          "Patch management"
+        ],
+        "resources_website": "https://docs.ansible.com/ansible/latest/user-guide/index.html",
+        "projects": [
+          "LAMP stack role",
+          "Security hardening",
+          "Patch automation"
+        ]
+      },
+      {
+        "id": "cicd_jenkins_github_actions",
+        "label": "CI/CD (Jenkins/GitHub Actions)",
+        "concepts": [
+          "Pipelines",
+          "Stages",
+          "Artifacts",
+          "Triggers",
+          "Gates"
+        ],
+        "usesfull_where": [
+          "Automated testing",
+          "Deployment",
+          "Release management"
+        ],
+        "resources_website": "https://www.jenkins.io/doc/book/pipeline/",
+        "projects": [
+          "Blue-green deploy",
+          "Canary release",
+          "Pipeline as code"
+        ]
+      },
+      {
+        "id": "monitoring_prometheus_grafana",
+        "label": "Monitoring (Prometheus/Grafana)",
+        "concepts": [
+          "Metrics",
+          "Alerts",
+          "Dashboards",
+          "Recording rules",
+          "Exporters"
+        ],
+        "usesfull_where": [
+          "SLA tracking",
+          "Incident response",
+          "Capacity planning"
+        ],
+        "resources_website": "https://prometheus.io/docs/tutorials/",
+        "projects": [
+          "SLO dashboard",
+          "Alert routing",
+          "Custom exporter"
+        ]
+      },
+      {
+        "id": "logging_elk_stack",
+        "label": "Logging (ELK Stack)",
+        "concepts": [
+          "Log shipping",
+          "Parsing",
+          "Indexing",
+          "Visualization",
+          "Retention"
+        ],
+        "usesfull_where": [
+          "Troubleshooting",
+          "Security analysis",
+          "Compliance"
+        ],
+        "resources_website": "https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html",
+        "projects": [
+          "Log aggregation",
+          "SIEM setup",
+          "APM integration"
+        ]
+      },
+      {
+        "id": "cloud_providers_aws",
+        "label": "Cloud Providers (AWS/Azure/GCP)",
+        "concepts": [
+          "Compute",
+          "Storage",
+          "Networking",
+          "IAM",
+          "Serverless"
+        ],
+        "usesfull_where": [
+          "Scalability",
+          "Global reach",
+          "Managed services",
+          "Cost optimization"
+        ],
+        "resources_website": "https://aws.amazon.com/getting-started/",
+        "projects": [
+          "Multi-region setup",
+          "Cost analyzer",
+          "Landing zone"
+        ]
+      },
+      {
+        "id": "security_devsecops",
+        "label": "Security & DevSecOps",
+        "concepts": [
+          "Vulnerability scanning",
+          "Secrets management",
+          "Compliance",
+          "SAST/DAST",
+          "RBAC"
+        ],
+        "usesfull_where": [
+          "Secure pipelines",
+          "Audit trails",
+          "Threat mitigation"
+        ],
+        "resources_website": "https://owasp.org/www-project-devsecops-maturity-model/",
+        "projects": [
+          "SAST integration",
+          "Vault setup",
+          "CIS benchmarks"
+        ]
+      },
+      {
+        "id": "service_mesh_istio",
+        "label": "Service Mesh (Istio)",
+        "concepts": [
+          "Sidecars",
+          "Traffic management",
+          "mTLS",
+          "Observability",
+          "Policies"
+        ],
+        "usesfull_where": [
+          "Zero-trust",
+          "A/B testing",
+          "Circuit breaking"
+        ],
+        "resources_website": "https://istio.io/latest/docs/setup/getting-started/",
+        "projects": [
+          "Canary deploy",
+          "Fault injection",
+          "Observability stack"
+        ]
+      },
+      {
+        "id": "gitops_flux",
+        "label": "GitOps (Flux/ArgoCD)",
+        "concepts": [
+          "Declarative config",
+          "Automated sync",
+          "Rollback",
+          "Drift detection",
+          "RBAC"
+        ],
+        "usesfull_where": [
+          "Continuous delivery",
+          "Auditability",
+          "Multi-cluster"
+        ],
+        "resources_website": "https://fluxcd.io/docs/get-started/",
+        "projects": [
+          "App of apps",
+          "Progressive delivery",
+          "DR strategy"
+        ]
+      },
+      {
+        "id": "advanced_sre_practices",
+        "label": "Advanced SRE Practices",
+        "concepts": [
+          "SLI/SLO",
+          "Error budgets",
+          "Blameless postmortems",
+          "Chaos engineering",
+          "Capacity modeling"
+        ],
+        "usesfull_where": [
+          "Reliability",
+          "Incident management",
+          "Performance"
+        ],
+        "resources_website": "https://sre.google/sre-book/table-of-contents/",
+        "projects": [
+          "Chaos toolkit",
+          "SLA reporter",
+          "Game days"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from_node": "linux_basics",
+        "to_node": "version_control_git"
+      },
+      {
+        "from_node": "linux_basics",
+        "to_node": "networking_fundamentals"
+      },
+      {
+        "from_node": "linux_basics",
+        "to_node": "scripting_bash_python"
+      },
+      {
+        "from_node": "version_control_git",
+        "to_node": "cicd_jenkins_github_actions"
+      },
+      {
+        "from_node": "networking_fundamentals",
+        "to_node": "containerization_docker"
+      },
+      {
+        "from_node": "scripting_bash_python",
+        "to_node": "configuration_management_ansible"
+      },
+      {
+        "from_node": "containerization_docker",
+        "to_node": "container_orchestration_k8s"
+      },
+      {
+        "from_node": "container_orchestration_k8s",
+        "to_node": "service_mesh_istio"
+      },
+      {
+        "from_node": "container_orchestration_k8s",
+        "to_node": "gitops_flux"
+      },
+      {
+        "from_node": "networking_fundamentals",
+        "to_node": "iac_terraform"
+      },
+      {
+        "from_node": "iac_terraform",
+        "to_node": "cloud_providers_aws"
+      },
+      {
+        "from_node": "cicd_jenkins_github_actions",
+        "to_node": "monitoring_prometheus_grafana"
+      },
+      {
+        "from_node": "cicd_jenkins_github_actions",
+        "to_node": "logging_elk_stack"
+      },
+      {
+        "from_node": "monitoring_prometheus_grafana",
+        "to_node": "advanced_sre_practices"
+      },
+      {
+        "from_node": "logging_elk_stack",
+        "to_node": "security_devsecops"
+      },
+      {
+        "from_node": "cloud_providers_aws",
+        "to_node": "security_devsecops"
+      },
+      {
+        "from_node": "security_devsecops",
+        "to_node": "service_mesh_istio"
+      },
+      {
+        "from_node": "gitops_flux",
+        "to_node": "advanced_sre_practices"
+      }
+    ]
+  }
+},
+
+
+
+{
+  
+  "Poster_url":"https://znuiuhxyhpgqmdftansc.supabase.co/storage/v1/object/public/files/data_eng.webp",
+  "respone": {
+    "nodes": [
+      {
+        "id": "python_fundamentals",
+        "label": "Python Fundamentals",
+        "concepts": [
+          "variables",
+          "data_types",
+          "control_flow",
+          "functions",
+          "modules",
+          "error_handling",
+          "file_io",
+          "virtual_environments"
+        ],
+        "usesfull_where": [
+          "data_scripts",
+          "etl_glue",
+          "lambda_functions",
+          "jupyter_notebooks"
+        ],
+        "resources_website": "https://docs.python.org/3/tutorial/",
+        "projects": [
+          "automated_csv_parser",
+          "log_analyzer"
+        ]
+      },
+      {
+        "id": "sql_mastery",
+        "label": "SQL Mastery",
+        "concepts": [
+          "joins",
+          "subqueries",
+          "window_functions",
+          "ctes",
+          "indexes",
+          "transactions",
+          "views",
+          "stored_procedures"
+        ],
+        "usesfull_where": [
+          "data_warehouses",
+          "analytics_queries",
+          "pipeline_validation"
+        ],
+        "resources_website": "https://www.postgresql.org/docs/",
+        "projects": [
+          "employee_db_modeling",
+          "ecommerce_analytics"
+        ]
+      },
+      {
+        "id": "linux_cli",
+        "label": "Linux & CLI",
+        "concepts": [
+          "bash_scripting",
+          "cron",
+          "ssh",
+          "permissions",
+          "text_processing",
+          "systemd",
+          "process_management"
+        ],
+        "usesfull_where": [
+          "server_deployments",
+          "airflow_scheduling",
+          "file_operations"
+        ],
+        "resources_website": "https://www.gnu.org/software/bash/manual/",
+        "projects": [
+          "automated_backup_script",
+          "log_rotation_system"
+        ]
+      },
+      {
+        "id": "git_version_control",
+        "label": "Git Version Control",
+        "concepts": [
+          "commits",
+          "branches",
+          "merging",
+          "rebasing",
+          "pull_requests",
+          "gitflow",
+          "submodules"
+        ],
+        "usesfull_where": [
+          "pipeline_code",
+          "infrastructure_code",
+          "documentation"
+        ],
+        "resources_website": "https://git-scm.com/doc",
+        "projects": [
+          "dbt_project_repo",
+          "data_lake_infra_repo"
+        ]
+      },
+      {
+        "id": "data_modeling_basics",
+        "label": "Data Modeling Basics",
+        "concepts": [
+          "erd",
+          "normalization",
+          "star_schema",
+          "snowflake_schema",
+          "facts_dimensions",
+          "slowly_changing_dimensions"
+        ],
+        "usesfull_where": [
+          "warehouse_design",
+          "lakehouse_design",
+          "reporting"
+        ],
+        "resources_website": "https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/",
+        "projects": [
+          "retail_star_schema",
+          "user_activity_scd2"
+        ]
+      },
+      {
+        "id": "etl_elasticsearch",
+        "label": "ETL with Elasticsearch",
+        "concepts": [
+          "batch_processing",
+          "incremental_loads",
+          "change_data_capture",
+          "parallelism",
+          "error_handling",
+          "monitoring"
+        ],
+        "usesfull_where": [
+          "nightly_batches",
+          "streaming_ingest",
+          "data_migrations"
+        ],
+        "resources_website": "https://www.elastic.co/guide/en/elasticsearch/reference/current/etl.html",
+        "projects": [
+          "sales_data_pipeline",
+          "user_events_etl"
+        ]
+      },
+      {
+        "id": "apache_airflow",
+        "label": "Apache Airflow",
+        "concepts": [
+          "dags",
+          "operators",
+          "sensors",
+          "xcoms",
+          "scheduling",
+          "pooling",
+          "sla",
+          "retry_logic"
+        ],
+        "usesfull_where": [
+          "workflow_orchestration",
+          "dependency_management",
+          "alerting"
+        ],
+        "resources_website": "https://airflow.apache.org/docs/",
+        "projects": [
+          "daily_report_dag",
+          "ml_feature_pipeline"
+        ]
+      },
+      {
+        "id": "docker_containers",
+        "label": "Docker Containers",
+        "concepts": [
+          "images",
+          "dockerfile",
+          "volumes",
+          "networking",
+          "compose",
+          "registry",
+          "multi_stage_builds"
+        ],
+        "usesfull_where": [
+          "isolated_pipelines",
+          "reproducible_envs",
+          "microservices"
+        ],
+        "resources_website": "https://docs.docker.com/get-started/",
+        "projects": [
+          "containerized_spark_job",
+          "airflow_in_docker"
+        ]
+      },
+      {
+        "id": "cloud_aws_glue",
+        "label": "Cloud AWS Glue",
+        "concepts": [
+          "s3_data_lake",
+          "glue_crawler",
+          "glue_etl",
+          "redshift",
+          "athena",
+          "emr",
+          "lambda",
+          "step_functions"
+        ],
+        "usesfull_where": [
+          "serverless_etl",
+          "scalable_analytics",
+          "cost_optimization"
+        ],
+        "resources_website": "https://docs.aws.amazon.com/glue/",
+        "projects": [
+          "serverless_data_lake",
+          "cost_optimized_etl"
+        ]
+      },
+      {
+        "id": "apache_spark",
+        "label": "Apache Spark",
+        "concepts": [
+          "rdd",
+          "dataframes",
+          "spark_sql",
+          "catalyst_optimizer",
+          "broadcast_joins",
+          "caching",
+          "cluster_manager"
+        ],
+        "usesfull_where": [
+          "big_data_processing",
+          "machine_learning",
+          "real_time_analytics"
+        ],
+        "resources_website": "https://spark.apache.org/docs/latest/",
+        "projects": [
+          "nyc_taxi_big_data",
+          "clickstream_analytics"
+        ]
+      },
+      {
+        "id": "kafka_streaming",
+        "label": "Kafka Streaming",
+        "concepts": [
+          "topics",
+          "partitions",
+          "producers",
+          "consumers",
+          "consumer_groups",
+          "exactly_once",
+          "schema_registry"
+        ],
+        "usesfull_where": [
+          "real_time_etl",
+          "event_sourcing",
+          "data_integration"
+        ],
+        "resources_website": "https://kafka.apache.org/documentation/",
+        "projects": [
+          "real_time_orders",
+          "log_aggregation_pipeline"
+        ]
+      },
+      {
+        "id": "data_quality_great_expectations",
+        "label": "Data Quality Great Expectations",
+        "concepts": [
+          "expectations",
+          "checkpoints",
+          "profiling",
+          "data_docs",
+          "validation",
+          "alerting",
+          "lineage"
+        ],
+        "usesfull_where": [
+          "pipeline_gates",
+          "regression_detection",
+          "sla_monitoring"
+        ],
+        "resources_website": "https://docs.greatexpectations.io/",
+        "projects": [
+          "automated_data_quality_suite",
+          "anomaly_detection_framework"
+        ]
+      },
+      {
+        "id": "dbt_data_transformation",
+        "label": "dbt Data Transformation",
+        "concepts": [
+          "models",
+          "tests",
+          "snapshots",
+          "materializations",
+          "jinja_macros",
+          "packages",
+          "documentation"
+        ],
+        "usesfull_where": [
+          "sql_based_transforms",
+          "ci_cd_sql",
+          "data_lineage"
+        ],
+        "resources_website": "https://docs.getdbt.com/",
+        "projects": [
+          "customer_360_model",
+          "finance_reporting_models"
+        ]
+      },
+      {
+        "id": "terraform_iac",
+        "label": "Terraform IaC",
+        "concepts": [
+          "providers",
+          "resources",
+          "state",
+          "modules",
+          "workspaces",
+          "remote_state",
+          "drift_detection"
+        ],
+        "usesfull_where": [
+          "infrastructure_pipelines",
+          "compliance",
+          "reproducible_infrastructure"
+        ],
+        "resources_website": "https://www.terraform.io/docs/",
+        "projects": [
+          "data_lake_infrastructure",
+          "multi_env_warehouse"
+        ]
+      },
+      {
+        "id": "monitoring_observability",
+        "label": "Monitoring Observability",
+        "concepts": [
+          "prometheus",
+          "grafana",
+          "alerts",
+          "slos",
+          "distributed_tracing",
+          "log_aggregation",
+          "anomaly_detection"
+        ],
+        "usesfull_where": [
+          "pipeline_health",
+          "cost_monitoring",
+          "incident_response"
+        ],
+        "resources_website": "https://prometheus.io/docs/",
+        "projects": [
+          "etl_health_dashboard",
+          "cost_alerting_system"
+        ]
+      },
+      {
+        "id": "data_governance_privacy",
+        "label": "Data Governance Privacy",
+        "concepts": [
+          "gdpr",
+          "ccpa",
+          "data_catalog",
+          "lineage",
+          "master_data",
+          "consent_management",
+          "retention_policies"
+        ],
+        "usesfull_where": [
+          "compliance",
+          "privacy_by_design",
+          "data_discovery"
+        ],
+        "resources_website": "https://docs.microsoft.com/en-us/azure/purview/",
+        "projects": [
+          "gdpr_compliance_framework",
+          "automated_data_catalog"
+        ]
+      },
+      {
+        "id": "advanced_performance_tuning",
+        "label": "Advanced Performance Tuning",
+        "concepts": [
+          "partition_pruning",
+          "z_ordering",
+          "file_formats",
+          "compression",
+          "caching_strategies",
+          "vectorization",
+          "cost_based_optimization"
+        ],
+        "usesfull_where": [
+          "petabyte_scale",
+          "real_time_queries",
+          "cost_reduction"
+        ],
+        "resources_website": "https://docs.databricks.com/optimizing/",
+        "projects": [
+          "sub_second_dashboard",
+          "cost_cut_50_percent"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from_node": "python_fundamentals",
+        "to_node": "sql_mastery"
+      },
+      {
+        "from_node": "python_fundamentals",
+        "to_node": "linux_cli"
+      },
+      {
+        "from_node": "python_fundamentals",
+        "to_node": "git_version_control"
+      },
+      {
+        "from_node": "sql_mastery",
+        "to_node": "data_modeling_basics"
+      },
+      {
+        "from_node": "git_version_control",
+        "to_node": "etl_elasticsearch"
+      },
+      {
+        "from_node": "linux_cli",
+        "to_node": "docker_containers"
+      },
+      {
+        "from_node": "data_modeling_basics",
+        "to_node": "etl_elasticsearch"
+      },
+      {
+        "from_node": "etl_elasticsearch",
+        "to_node": "apache_airflow"
+      },
+      {
+        "from_node": "docker_containers",
+        "to_node": "apache_airflow"
+      },
+      {
+        "from_node": "apache_airflow",
+        "to_node": "cloud_aws_glue"
+      },
+      {
+        "from_node": "python_fundamentals",
+        "to_node": "apache_spark"
+      },
+      {
+        "from_node": "etl_elasticsearch",
+        "to_node": "apache_spark"
+      },
+      {
+        "from_node": "apache_airflow",
+        "to_node": "kafka_streaming"
+      },
+      {
+        "from_node": "kafka_streaming",
+        "to_node": "data_quality_great_expectations"
+      },
+      {
+        "from_node": "sql_mastery",
+        "to_node": "dbt_data_transformation"
+      },
+      {
+        "from_node": "apache_airflow",
+        "to_node": "dbt_data_transformation"
+      },
+      {
+        "from_node": "docker_containers",
+        "to_node": "terraform_iac"
+      },
+      {
+        "from_node": "cloud_aws_glue",
+        "to_node": "terraform_iac"
+      },
+      {
+        "from_node": "data_quality_great_expectations",
+        "to_node": "monitoring_observability"
+      },
+      {
+        "from_node": "terraform_iac",
+        "to_node": "monitoring_observability"
+      },
+      {
+        "from_node": "monitoring_observability",
+        "to_node": "data_governance_privacy"
+      },
+      {
+        "from_node": "data_governance_privacy",
+        "to_node": "advanced_performance_tuning"
+      },
+      {
+        "from_node": "apache_spark",
+        "to_node": "advanced_performance_tuning"
+      }
+    ]
+  }
+},
+
+
+
+{
+  
+  "Poster_url":"https://znuiuhxyhpgqmdftansc.supabase.co/storage/v1/object/public/files/Data_struc.jpg",
+  "respone": {
+    "nodes": [
+      {
+        "id": "big_o_notation",
+        "label": "Big O Notation",
+        "concepts": [
+          "Time complexity",
+          "Space complexity",
+          "Best/average/worst case",
+          "P vs NP"
+        ],
+        "usesfull_where": [
+          "Algorithm analysis",
+          "Interview questions",
+          "System design"
+        ],
+        "resources_website": "https://www.bigocheatsheet.com",
+        "projects": [
+          "Analyze sorting algorithms",
+          "Compare search complexities"
+        ]
+      },
+      {
+        "id": "arrays",
+        "label": "Arrays",
+        "concepts": [
+          "Static vs dynamic",
+          "Insertion/deletion",
+          "Searching",
+          "Sorting",
+          "Multidimensional"
+        ],
+        "usesfull_where": [
+          "All programming tasks",
+          "Interview questions",
+          "Data storage"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/array-data-structure",
+        "projects": [
+          "Dynamic array implementation",
+          "Rotate array",
+          "Find duplicates"
+        ]
+      },
+      {
+        "id": "linked_lists",
+        "label": "Linked Lists",
+        "concepts": [
+          "Singly/doubly/circular",
+          "Insertion/deletion",
+          "Reversal",
+          "Cycle detection"
+        ],
+        "usesfull_where": [
+          "Memory efficient storage",
+          "LRU cache",
+          "Music playlists"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/data-structures/linked-list",
+        "projects": [
+          "Implement LRU cache",
+          "Merge two sorted lists",
+          "Detect cycle"
+        ]
+      },
+      {
+        "id": "stacks_queues",
+        "label": "Stacks & Queues",
+        "concepts": [
+          "LIFO/FIFO",
+          "Implementation using arrays/lists",
+          "Applications",
+          "Monotonic stack"
+        ],
+        "usesfull_where": [
+          "Undo operations",
+          "BFS/DFS",
+          "Expression evaluation"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/stack-data-structure",
+        "projects": [
+          "Browser history",
+          "Valid parentheses",
+          "Queue using stacks"
+        ]
+      },
+      {
+        "id": "hash_tables",
+        "label": "Hash Tables",
+        "concepts": [
+          "Hash functions",
+          "Collision resolution",
+          "Load factor",
+          "Amortized analysis"
+        ],
+        "usesfull_where": [
+          "Database indexing",
+          "Caching",
+          "Counting frequencies"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/hashing-data-structure",
+        "projects": [
+          "Implement hash map",
+          "Group anagrams",
+          "LRU cache"
+        ]
+      },
+      {
+        "id": "trees",
+        "label": "Trees",
+        "concepts": [
+          "Binary trees",
+          "BST",
+          "AVL",
+          "Red-Black",
+          "Heap",
+          "Trie"
+        ],
+        "usesfull_where": [
+          "File systems",
+          "Database indexing",
+          "Autocomplete"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/binary-tree-data-structure",
+        "projects": [
+          "Validate BST",
+          "Level order traversal",
+          "Lowest common ancestor"
+        ]
+      },
+      {
+        "id": "heaps",
+        "label": "Heaps",
+        "concepts": [
+          "Min/Max heap",
+          "Heapify",
+          "Priority queue",
+          "Heap sort"
+        ],
+        "usesfull_where": [
+          "Dijkstra's algorithm",
+          "Task scheduling",
+          "Median finder"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/heap-data-structure",
+        "projects": [
+          "Kth largest element",
+          "Merge k sorted lists",
+          "Median stream"
+        ]
+      },
+      {
+        "id": "graphs",
+        "label": "Graphs",
+        "concepts": [
+          "Adjacency matrix/list",
+          "Directed/undirected",
+          "Weighted/unweighted",
+          "Connected components"
+        ],
+        "usesfull_where": [
+          "Social networks",
+          "Maps",
+          "Recommendation systems"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/graph-data-structure-and-algorithms",
+        "projects": [
+          "Implement graph",
+          "Detect cycle",
+          "Clone graph"
+        ]
+      },
+      {
+        "id": "graph_traversal",
+        "label": "Graph Traversal",
+        "concepts": [
+          "DFS",
+          "BFS",
+          "Topological sort",
+          "Connected components"
+        ],
+        "usesfull_where": [
+          "Path finding",
+          "Web crawlers",
+          "Dependency resolution"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/graph-traversals",
+        "projects": [
+          "Course schedule",
+          "Word ladder",
+          "Number of islands"
+        ]
+      },
+      {
+        "id": "shortest_path",
+        "label": "Shortest Path Algorithms",
+        "concepts": [
+          "Dijkstra",
+          "Bellman-Ford",
+          "Floyd-Warshall",
+          "A*"
+        ],
+        "usesfull_where": [
+          "GPS navigation",
+          "Network routing",
+          "Game AI"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/shortest-path-algorithms",
+        "projects": [
+          "Network delay time",
+          "Cheapest flights",
+          "Word ladder II"
+        ]
+      },
+      {
+        "id": "minimum_spanning_tree",
+        "label": "Minimum Spanning Tree",
+        "concepts": [
+          "Prim's algorithm",
+          "Kruskal's algorithm",
+          "Union-Find",
+          "Cut property"
+        ],
+        "usesfull_where": [
+          "Network design",
+          "Clustering",
+          "Approximation algorithms"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/minimum-spanning-tree",
+        "projects": [
+          "Connect all points",
+          "Optimize road construction"
+        ]
+      },
+      {
+        "id": "dynamic_programming",
+        "label": "Dynamic Programming",
+        "concepts": [
+          "Memoization",
+          "Tabulation",
+          "Optimal substructure",
+          "Overlapping subproblems"
+        ],
+        "usesfull_where": [
+          "Optimization problems",
+          "String matching",
+          "Knapsack problems"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/dynamic-programming",
+        "projects": [
+          "Climbing stairs",
+          "House robber",
+          "Edit distance"
+        ]
+      },
+      {
+        "id": "greedy_algorithms",
+        "label": "Greedy Algorithms",
+        "concepts": [
+          "Activity selection",
+          "Huffman coding",
+          "Greedy choice property"
+        ],
+        "usesfull_where": [
+          "Scheduling",
+          "Compression",
+          "Optimization"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/greedy-algorithms",
+        "projects": [
+          "Meeting rooms",
+          "Jump game",
+          "Gas station"
+        ]
+      },
+      {
+        "id": "backtracking",
+        "label": "Backtracking",
+        "concepts": [
+          "State space tree",
+          "Pruning",
+          "N-queens",
+          "Sudoku solver"
+        ],
+        "usesfull_where": [
+          "Constraint satisfaction",
+          "Puzzles",
+          "Combinatorial problems"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/backtracking-algorithms",
+        "projects": [
+          "Generate parentheses",
+          "Permutations",
+          "Combination sum"
+        ]
+      },
+      {
+        "id": "bit_manipulation",
+        "label": "Bit Manipulation",
+        "concepts": [
+          "AND/OR/XOR",
+          "Shifting",
+          "Bit masking",
+          "Hamming distance"
+        ],
+        "usesfull_where": [
+          "Memory optimization",
+          "Cryptography",
+          "Embedded systems"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/bit-manipulation",
+        "projects": [
+          "Single number",
+          "Power of two",
+          "Bitwise AND of numbers range"
+        ]
+      },
+      {
+        "id": "tries",
+        "label": "Tries",
+        "concepts": [
+          "Prefix tree",
+          "Auto-complete",
+          "Spell checker",
+          "Compression"
+        ],
+        "usesfull_where": [
+          "Search engines",
+          "IP routing",
+          "Dictionary apps"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/trie-data-structure",
+        "projects": [
+          "Implement Trie",
+          "Word search II",
+          "Replace words"
+        ]
+      },
+      {
+        "id": "segment_trees",
+        "label": "Segment Trees",
+        "concepts": [
+          "Range queries",
+          "Lazy propagation",
+          "Point updates",
+          "RMQ"
+        ],
+        "usesfull_where": [
+          "Database queries",
+          "Game development",
+          "Statistics"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/segment-tree",
+        "projects": [
+          "Range sum query",
+          "Falling squares"
+        ]
+      },
+      {
+        "id": "fenwick_trees",
+        "label": "Fenwick Trees (BIT)",
+        "concepts": [
+          "Prefix sums",
+          "Point updates",
+          "Inversion count"
+        ],
+        "usesfull_where": [
+          "Frequency tables",
+          "2D queries",
+          "Compression"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/binary-indexed-tree",
+        "projects": [
+          "Count smaller numbers",
+          "Reverse pairs"
+        ]
+      },
+      {
+        "id": "disjoint_sets",
+        "label": "Disjoint Set Union",
+        "concepts": [
+          "Union by rank",
+          "Path compression",
+          "Connected components",
+          "Kruskal's"
+        ],
+        "usesfull_where": [
+          "Maze generation",
+          "Network connectivity",
+          "Image processing"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/union-find",
+        "projects": [
+          "Number of provinces",
+          "Accounts merge"
+        ]
+      },
+      {
+        "id": "advanced_graphs",
+        "label": "Advanced Graph Algorithms",
+        "concepts": [
+          "Max flow",
+          "Min cut",
+          "Bipartite matching",
+          "Strongly connected components"
+        ],
+        "usesfull_where": [
+          "Supply chain",
+          "Job assignment",
+          "Circuit design"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/max-flow-problem",
+        "projects": [
+          "Course schedule III",
+          "Critical connections"
+        ]
+      },
+      {
+        "id": "string_algorithms",
+        "label": "String Algorithms",
+        "concepts": [
+          "KMP",
+          "Rabin-Karp",
+          "Z-algorithm",
+          "Suffix arrays",
+          "Aho-Corasick"
+        ],
+        "usesfull_where": [
+          "Text editors",
+          "DNA sequencing",
+          "Plagiarism detection"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/string-matching",
+        "projects": [
+          "Implement strStr",
+          "Find all anagrams"
+        ]
+      },
+      {
+        "id": "computational_geometry",
+        "label": "Computational Geometry",
+        "concepts": [
+          "Convex hull",
+          "Line intersection",
+          "Closest pair",
+          "Sweep line"
+        ],
+        "usesfull_where": [
+          "Game development",
+          "CAD",
+          "Robotics"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/computational-geometry",
+        "projects": [
+          "Min area rectangle",
+          "Max points on line"
+        ]
+      },
+      {
+        "id": "number_theory",
+        "label": "Number Theory for CP",
+        "concepts": [
+          "GCD/LCM",
+          "Prime sieve",
+          "Modular arithmetic",
+          "Chinese remainder"
+        ],
+        "usesfull_where": [
+          "Cryptography",
+          "Hashing",
+          "Randomization"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/number-theory",
+        "projects": [
+          "Beautiful arrangements",
+          "Nth magical number"
+        ]
+      },
+      {
+        "id": "advanced_dp",
+        "label": "Advanced Dynamic Programming",
+        "concepts": [
+          "DP on trees",
+          "Digit DP",
+          "Bitmask DP",
+          "SOS DP"
+        ],
+        "usesfull_where": [
+          "Tree problems",
+          "Subset enumeration",
+          "State compression"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/advanced-dp",
+        "projects": [
+          "Count subtrees",
+          "Number of ways to wear hats"
+        ]
+      },
+      {
+        "id": "matrix_exponentiation",
+        "label": "Matrix Exponentiation",
+        "concepts": [
+          "Recurrence relations",
+          "Fast exponentiation",
+          "Fibonacci optimization"
+        ],
+        "usesfull_where": [
+          "Linear recurrences",
+          "Graph transitions",
+          "Population models"
+        ],
+        "resources_website": "https://www.geeksforgeeks.org/matrix-exponentiation",
+        "projects": [
+          "Fibonacci sum",
+          "Tiling problems"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from_node": "big_o_notation",
+        "to_node": "arrays"
+      },
+      {
+        "from_node": "arrays",
+        "to_node": "linked_lists"
+      },
+      {
+        "from_node": "arrays",
+        "to_node": "stacks_queues"
+      },
+      {
+        "from_node": "arrays",
+        "to_node": "hash_tables"
+      },
+      {
+        "from_node": "linked_lists",
+        "to_node": "trees"
+      },
+      {
+        "from_node": "trees",
+        "to_node": "heaps"
+      },
+      {
+        "from_node": "trees",
+        "to_node": "tries"
+      },
+      {
+        "from_node": "hash_tables",
+        "to_node": "graphs"
+      },
+      {
+        "from_node": "graphs",
+        "to_node": "graph_traversal"
+      },
+      {
+        "from_node": "graph_traversal",
+        "to_node": "shortest_path"
+      },
+      {
+        "from_node": "shortest_path",
+        "to_node": "minimum_spanning_tree"
+      },
+      {
+        "from_node": "arrays",
+        "to_node": "dynamic_programming"
+      },
+      {
+        "from_node": "dynamic_programming",
+        "to_node": "advanced_dp"
+      },
+      {
+        "from_node": "arrays",
+        "to_node": "greedy_algorithms"
+      },
+      {
+        "from_node": "arrays",
+        "to_node": "backtracking"
+      },
+      {
+        "from_node": "arrays",
+        "to_node": "bit_manipulation"
+      },
+      {
+        "from_node": "trees",
+        "to_node": "segment_trees"
+      },
+      {
+        "from_node": "segment_trees",
+        "to_node": "fenwick_trees"
+      },
+      {
+        "from_node": "graphs",
+        "to_node": "disjoint_sets"
+      },
+      {
+        "from_node": "disjoint_sets",
+        "to_node": "minimum_spanning_tree"
+      },
+      {
+        "from_node": "graph_traversal",
+        "to_node": "advanced_graphs"
+      },
+      {
+        "from_node": "hash_tables",
+        "to_node": "string_algorithms"
+      },
+      {
+        "from_node": "string_algorithms",
+        "to_node": "tries"
+      },
+      {
+        "from_node": "arrays",
+        "to_node": "computational_geometry"
+      },
+      {
+        "from_node": "bit_manipulation",
+        "to_node": "number_theory"
+      },
+      {
+        "from_node": "dynamic_programming",
+        "to_node": "matrix_exponentiation"
+      }
+    ]
+  }
+}
+
+]
