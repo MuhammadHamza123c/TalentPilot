@@ -1,66 +1,74 @@
-from fastapi import (
-    APIRouter,UploadFile,File,HTTPException
-    )
+from fastapi import APIRouter, UploadFile, File, HTTPException
+from uuid import uuid4
 
 from app.api.src.resume_upload import upload_resume
 from app.agents.extract_text import get_text
-from uuid import uuid4
-from supabase import create_client,StorageException,SupabaseException
-from groq import APIError,RateLimitError,APIConnectionError,APITimeoutError
+from app.api.src.pdf_doc_text import extract_pdf, extract_docx
+
+from supabase import StorageException, SupabaseException
+from groq import APIError, RateLimitError, APIConnectionError, APITimeoutError
 
 
-upload_router=APIRouter()
+upload_router = APIRouter()
+
+
 @upload_router.post('/TalentPilot/resume_upload')
-async def get_image(f1:UploadFile=File(...)):
-    file_extension=f1.content_type.split('/')[-1]
-    file_name=f'{uuid4()}.{file_extension}'
+async def upload_resume_route(f1: UploadFile = File(...)):
     try:
-        content=await f1.read()
-        image_url=upload_resume(image_name=file_name,image_content=content)
-        image_text_read=get_text(image_name=file_name,image_url=image_url)
-        if image_text_read:
+   
+        file_extension = f1.filename.split('.')[-1].lower()
+        file_name = f"{uuid4()}.{file_extension}"
 
-            return{
-            'TalentPilot':'Image has been Upload. Use Image_name for further process!',
-            'Image_name':file_name
+        content = await f1.read()
+
+        file_url = upload_resume(image_name=file_name, image_content=content)
+
+        if file_extension == 'pdf':
+            text = extract_pdf(file_url)
+
+        elif file_extension == 'docx':
+            text = extract_docx(file_url)
+
+        elif file_extension in ['png', 'jpg', 'jpeg']:
+            text = get_text(image_name=file_name, image_url=file_url)
+
+        else:
+            raise HTTPException(
+                status_code=400,
+                detail="Unsupported file format"
+            )
+
+    
+        if not text:
+            raise HTTPException(
+                status_code=400,
+                detail="Failed to extract text from resume"
+            )
+
+       
+        return {
+            "message": "Resume uploaded & processed successfully",
+            "Image_name": file_name
         }
-        raise HTTPException(
-            status_code=400,
-            detail='Failed to Extract text from uploaded resume'
-        )
 
-
+  
     except SupabaseException as e:
-        raise HTTPException(
-            status_code=500,
-            detail=f"Supabase Error: {str(e)}"
-        )
-    except APIError as e:
-        raise HTTPException(
-            status_code=502,
-            detail=f'Server API error: {str(e)}'
+        raise HTTPException(500, f"Supabase Error: {str(e)}")
 
-        )
-    except RateLimitError as e:
-        raise HTTPException(
-            status_code=429,
-            detail=f'Rate Limit Excede: {str(e)}'
-
-        )
-    except APIConnectionError as e:
-        raise HTTPException(
-            status_code=503,
-            detail=f'Unable to connect to Internet: {str(e)}'
-        )
-    except APITimeoutError as e:
-        raise HTTPException(
-            status_code=504,
-            detail=f'Request Time out excede: {str(e)}'
-        )
     except StorageException as e:
-        raise HTTPException(
-            status_code=400,
-            detail=f'Supabase Storage Problem: {str(e)}'
-        )
+        raise HTTPException(400, f"Supabase Storage Problem: {str(e)}")
+
+    except APIError as e:
+        raise HTTPException(502, f"Groq API error: {str(e)}")
+
+    except RateLimitError as e:
+        raise HTTPException(429, f"Rate limit exceeded: {str(e)}")
+
+    except APIConnectionError as e:
+        raise HTTPException(503, f"Connection error: {str(e)}")
+
+    except APITimeoutError as e:
+        raise HTTPException(504, f"Request timeout: {str(e)}")
+
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Unexpected server error: {str(e)}")
+        raise HTTPException(500, f"Unexpected error: {str(e)}")
