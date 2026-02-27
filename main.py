@@ -28,7 +28,7 @@ def home():
         'TalentPilot':'Welcome to TalentPilot!'
     }
 
-app.include_router(upload_router)
+# app.include_router(upload_router)
 app.include_router(news_router)
 app.include_router(analyze_router)
 app.include_router(dashboard_router)
