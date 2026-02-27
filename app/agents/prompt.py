@@ -181,7 +181,7 @@ Tell user in simple and easy way.
 Be honest, structured, professional, and practical.
 Avoid generic advice.
 Be specific and actionable.
-Use clear headings and bullet points.
+Response must be less than 100 words and use simple english.
 """
 
 dashboard_prompt="""
