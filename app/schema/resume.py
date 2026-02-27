@@ -51,4 +51,4 @@ class Resume(BaseModel):
     projects: List[Project] = Field(default_factory=list)
     languages: List[Language] = Field(default_factory=list)
     interests: List[str] = Field(default_factory=list)
-    response:Optional[str]=None
+    question:Optional[str]=None
