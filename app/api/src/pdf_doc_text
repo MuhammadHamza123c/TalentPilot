@@ -1,0 +1,40 @@
+import requests
+import tempfile
+import pdfplumber
+from docx import Document
+
+
+# 🔽 Download helper
+def download_file(url: str) -> str:
+    response = requests.get(url, timeout=10)
+    response.raise_for_status()
+
+    ext = url.split(".")[-1].lower()
+    temp_file = tempfile.NamedTemporaryFile(delete=False, suffix=f".{ext}")
+    
+    temp_file.write(response.content)
+    temp_file.close()
+
+    return temp_file.name
+
+
+# 📄 PDF extractor (supports URL + local path)
+def extract_pdf(input_path: str) -> str:
+    file_path = download_file(input_path) if input_path.startswith("http") else input_path
+
+    text = ""
+    with pdfplumber.open(file_path) as pdf:
+        for page in pdf.pages:
+            t = page.extract_text()
+            if t:
+                text += t + "\n"
+    
+    return text.strip()
+
+
+# 📝 DOCX extractor (supports URL + local path)
+def extract_docx(input_path: str) -> str:
+    file_path = download_file(input_path) if input_path.startswith("http") else input_path
+
+    doc = Document(file_path)
+    return "\n".join([p.text for p in doc.paragraphs if p.text.strip()])
