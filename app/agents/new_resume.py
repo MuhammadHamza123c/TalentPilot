@@ -62,7 +62,7 @@ def create_new_resume(image_name:str=None,text:str=None):
 
     
         response=json.dumps(sql_query_generation.model_dump(), indent=2)
-        agent_res.append(response)
+        agent_res.append(str(response))
         return sql_query_generation
     except (APIConnectionError, APITimeoutError, RateLimitError, APIError,json.JSONDecodeError,TypeError) as e:
         raise e
