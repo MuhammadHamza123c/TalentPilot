@@ -8,3 +8,6 @@ requests
 beautifulsoup4
 python-multipart
 pydantic[email]
+python-docx
+pdfplumber
+PyPDF2
