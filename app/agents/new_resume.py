@@ -4,7 +4,7 @@ import json
 from dotenv import load_dotenv
 from ..schema.resume import Resume
 from .prompt import resume_create_prompt
-from ..agents.extract_text import get_text
+from ..agents.extract_text import get_text,create_file
 from .src.read_resume import resume_content
 from ..agents.src.data_read import get_data
 from ..agents.model_detail import model_data
@@ -75,7 +75,7 @@ def main_resume(user_resume_choice:str,take_text:str=None,image_name:str=None):
      User_answer=create_new_resume(image_name=image_name,text=take_text)
    
      
-     if not User_answer.question:
+     if User_answer.question=='DONE':
             if user_resume_choice=='1':
                 file_name=build_resume_png(User_answer)
             elif user_resume_choice=='2':
@@ -84,9 +84,9 @@ def main_resume(user_resume_choice:str,take_text:str=None,image_name:str=None):
                  file_name=build_resume_png_third(User_answer)
             content_store=resume_content(file_name=file_name)
             public_url=upload_resume(image_name=file_name,image_content=content_store)
-            file_add=get_text(image_name=file_name,image_url=public_url)
+          
             return{
-                 'File_status':file_add,
+                 
                  'File_name':file_name,
                  'Public_url':public_url
             }
