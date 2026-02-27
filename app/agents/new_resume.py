@@ -23,11 +23,11 @@ agent_res=[]
 
 #(----------------------------------------------------RESUME CREATE FUNCTION----------------------)
 def create_new_resume(image_name:str=None,text:str=None):
-
+    user_text=''
     if image_name is not None:
-        user_text=get_data(image_name=image_name)
+        user_text+=get_data(image_name=image_name)
     if text is not None:
-         user_text=text
+         user_text+=text
     try:
 
         messages=[
@@ -69,7 +69,7 @@ def create_new_resume(image_name:str=None,text:str=None):
 
 
 
-def main_resume(user_resume_choice:int,take_text:str=None,image_name:str=None):
+def main_resume(user_resume_choice:str,take_text:str=None,image_name:str=None):
     
      User_answer=create_new_resume(image_name=image_name,text=take_text)
      
@@ -93,4 +93,3 @@ def main_resume(user_resume_choice:int,take_text:str=None,image_name:str=None):
              'response':User_answer.question
         }
           
-
