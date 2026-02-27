@@ -16,6 +16,7 @@ def fetch_news(q:str,page_number:int):
                                 params={
                                     'q':q,
                                     'page':page_number,
+                                   "sortBy": "publishedAt",
                                     'apiKey':NEWS_API_KEY
                                 })
             
