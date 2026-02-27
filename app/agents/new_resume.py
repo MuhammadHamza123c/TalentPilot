@@ -59,9 +59,10 @@ def create_new_resume(image_name:str=None,text:str=None):
         
 
         sql_query_generation = Resume.model_validate(json.loads(response.choices[0].message.content))
-
+        
     
         response=json.dumps(sql_query_generation.model_dump(), indent=2)
+      
         agent_res.append(str(response))
         return sql_query_generation
     except (APIConnectionError, APITimeoutError, RateLimitError, APIError,json.JSONDecodeError,TypeError) as e:
@@ -72,8 +73,9 @@ def create_new_resume(image_name:str=None,text:str=None):
 def main_resume(user_resume_choice:str,take_text:str=None,image_name:str=None):
     
      User_answer=create_new_resume(image_name=image_name,text=take_text)
+   
      
-     if User_answer.question is None:
+     if User_answer.question=='DONE':
             if user_resume_choice=='1':
                 file_name=build_resume_png(User_answer)
             elif user_resume_choice=='2':
