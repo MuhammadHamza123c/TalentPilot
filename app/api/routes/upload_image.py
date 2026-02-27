@@ -26,6 +26,7 @@ async def upload_resume_route(f1: UploadFile = File(...)):
         file_url = upload_resume(image_name=file_name, image_content=content)
         
         print('File Upload hgae')
+        print(file_url)
 
         if file_extension == 'pdf':
             text = extract_pdf_from_url(file_url)
