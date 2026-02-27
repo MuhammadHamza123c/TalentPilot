@@ -18,7 +18,7 @@ supabase=create_client(supabase_url,supabase_api_key)
 
 
 #(-------------------------------GET TEXT FROM UPLOAD RESUME IMAGE-------)
-def get_text(image_name:str,image_url:str):
+def get_text(image_url:str):
     
     try:
         completion = client.chat.completions.create(
@@ -46,10 +46,9 @@ def get_text(image_name:str,image_url:str):
     )
         text=completion.choices[0].message.content
 #(---------------------CALLING CREATE FILE TO MAKE DATA.JSON and ADDD TEXT---------)
-        check_res=create_file(image_name=image_name,text=text)
-        if check_res:
        
-            return "Successfully, Image text extracted and store in data.json"
+       
+        return text
     except (APIConnectionError, APITimeoutError, RateLimitError, APIError) as e:
         raise e
 
