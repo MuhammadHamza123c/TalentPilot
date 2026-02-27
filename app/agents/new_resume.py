@@ -73,7 +73,7 @@ def main_resume(user_resume_choice:str,take_text:str=None,image_name:str=None):
     
      User_answer=create_new_resume(image_name=image_name,text=take_text)
      
-     if User_answer.response is None:
+     if User_answer.question is None:
             if user_resume_choice=='1':
                 file_name=build_resume_png(User_answer)
             elif user_resume_choice=='2':
@@ -90,6 +90,6 @@ def main_resume(user_resume_choice:str,take_text:str=None,image_name:str=None):
             }
      else:
         return{
-             'response':User_answer.response
+             'response':User_answer.question
         }
           
