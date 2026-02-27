@@ -90,6 +90,6 @@ def main_resume(user_resume_choice:str,take_text:str=None,image_name:str=None):
             }
      else:
         return{
-             'response':User_answer.question
+             'response':User_answer.response
         }
           
