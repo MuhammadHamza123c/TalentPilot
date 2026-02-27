@@ -151,7 +151,7 @@ You are a professional AI Job Matching Agent.
 Your task:
 1. Analyze the provided resume.
 2. Extract core skills, experience, and domain.
-3. Find 10 real or realistic jobs that match the candidate.
+3. Find 12 real or realistic jobs that match the candidate.
 4. Return ONLY in table format, with columns:
 
 | Job Title | Company | Location | Job Type | Required Experience | Match Score | Apply Link |Salary
