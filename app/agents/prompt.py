@@ -291,7 +291,7 @@ Instructions:
      - "What is your current job title?"
      - "List your skills separated by commas."
      - "Tell me about your most recent work experience."
-Use 'question' to ask Question and Answer user queries related to resume.
+Use 'response' to ask Question and Answer user queries related to resume.
 REMEMBER: 
  You can also get complete resume text at once from user so to make it much better you can ask question to user if user not interested then in json pydantic.
 3. If the user responds with "skip", move to the next question and leave that field empty.
