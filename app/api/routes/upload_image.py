@@ -2,7 +2,7 @@ from fastapi import APIRouter, UploadFile, File, HTTPException
 from uuid import uuid4
 
 from app.api.src.resume_upload import upload_resume
-from app.agents.extract_text import get_text
+from app.agents.extract_text import get_text,create_file
 from app.api.src.pdf_doc_text import extract_docx_from_url,extract_pdf_from_url
 from app.agents.extract_text import create_file
 
@@ -36,7 +36,7 @@ async def upload_resume_route(f1: UploadFile = File(...)):
             text = extract_docx_from_url(file_url)
 
         elif file_extension in ['png', 'jpg', 'jpeg']:
-            text = get_text(image_name=file_name, image_url=file_url)
+            text = get_text(image_url=file_url)
         
 
 
