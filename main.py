@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.api.routes.upload_image import upload_router
+# from app.api.routes.upload_image import upload_router
 from app.api.routes.tech_news import news_router
 from app.api.routes.analyze import analyze_router
 from app.api.routes.dashboard import dashboard_router
