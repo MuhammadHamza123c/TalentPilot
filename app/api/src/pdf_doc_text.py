@@ -15,7 +15,7 @@ def extract_pdf_from_url(url: str) -> str:
                 if page_text:
                     text += page_text + "\n"
         if not text.strip():
-            text = 'Upload Correct Resume'
+            text = 'Upload Correct Resume. Dont do anything'
     except Exception as e:
         raise ValueError(f"Failed to extract PDF text: {str(e)}")
     return text.strip()
@@ -64,7 +64,7 @@ def extract_docx_from_url(url: str) -> str:
                         text.append(row_text)
 
         if not text:
-            text.append('Upload Correct Resume')
+            text.append('Upload Correct Resume. Dont do anything')
 
     except Exception as e:
         raise ValueError(f"Failed to extract DOCX text: {str(e)}")
